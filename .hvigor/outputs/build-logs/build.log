@@ -1,0 +1,546 @@
+[2025-03-12T17:41:57.937] [INFO] debug-file - Finished :entry:default@HMRouterGenerateObfuscationFileTask... after 1 ms 
+[2025-03-12T17:41:57.937] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-03-12T17:41:57.937] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-03-12T17:41:57.937] [DEBUG] debug-file - Executing task :entry:default@BuildNativeWithCmake
+[2025-03-12T17:41:57.937] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-03-12T17:41:57.937] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-03-12T17:41:57.937] [DEBUG] debug-file - entry : default@BuildNativeWithCmake cost memory 0.03705596923828125
+[2025-03-12T17:41:57.937] [DEBUG] debug-file - runTaskFromQueue task cost before running: 258 ms 
+[2025-03-12T17:41:57.937] [INFO] debug-file - Finished :entry:default@BuildNativeWithCmake... after 1 ms 
+[2025-03-12T17:41:57.938] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-03-12T17:41:57.938] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-03-12T17:41:57.938] [DEBUG] debug-file - Executing task :entry:default@SyscapTransform
+[2025-03-12T17:41:57.938] [DEBUG] debug-file - File: '/Users/shaozejun/Desktop/jason_code/HarmonyHanBook/entry/src/main/syscap.json' from 'sysCapJsonPath' is not exists, just ignore.
+[2025-03-12T17:41:57.938] [DEBUG] debug-file - Task 'entry:default@SyscapTransform' cost while wrapping incremental declarations: 1 ms 
+[2025-03-12T17:41:57.939] [DEBUG] debug-file - entry:default@SyscapTransform is not up-to-date, since the output file '/Users/shaozejun/Desktop/jason_code/HarmonyHanBook/entry/build/default/intermediates/syscap/default/rpcid.sc' does not exist.
+[2025-03-12T17:41:57.939] [DEBUG] debug-file - Incremental task entry:default@SyscapTransform pre-execution cost: 1 ms .
+[2025-03-12T17:41:57.939] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-03-12T17:41:57.939] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-03-12T17:41:57.939] [DEBUG] debug-file - entry : default@SyscapTransform cost memory 0.11910247802734375
+[2025-03-12T17:41:57.939] [DEBUG] debug-file - runTaskFromQueue task cost before running: 260 ms 
+[2025-03-12T17:41:57.940] [INFO] debug-file - Finished :entry:default@SyscapTransform... after 2 ms 
+[2025-03-12T17:41:57.940] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-03-12T17:41:57.940] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-03-12T17:41:57.941] [DEBUG] debug-file - Executing task :entry:default@ProcessRouterMap
+[2025-03-12T17:41:57.941] [DEBUG] debug-file - entry:default@ProcessRouterMap is not up-to-date, since the input file '/Users/shaozejun/Desktop/jason_code/HarmonyHanBook/entry/src/main/resources/base/profile/hm_router_map.json' has been changed.
+[2025-03-12T17:41:57.941] [DEBUG] debug-file - Incremental task entry:default@ProcessRouterMap pre-execution cost: 1 ms .
+[2025-03-12T17:41:57.941] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-03-12T17:41:57.942] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-03-12T17:41:57.948] [DEBUG] debug-file - entry : default@ProcessRouterMap cost memory 0.7331161499023438
+[2025-03-12T17:41:57.948] [DEBUG] debug-file - runTaskFromQueue task cost before running: 269 ms 
+[2025-03-12T17:41:57.949] [INFO] debug-file - Finished :entry:default@ProcessRouterMap... after 8 ms 
+[2025-03-12T17:41:57.949] [DEBUG] debug-file - Executing task :entry:default@MergeProfile
+[2025-03-12T17:41:57.950] [DEBUG] debug-file - Incremental task entry:default@MergeProfile pre-execution cost: 1 ms .
+[2025-03-12T17:41:57.950] [DEBUG] debug-file - entry : default@MergeProfile cost memory 0.1065826416015625
+[2025-03-12T17:41:57.950] [INFO] debug-file - UP-TO-DATE :entry:default@MergeProfile...  
+[2025-03-12T17:41:57.950] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-03-12T17:41:57.950] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-03-12T17:41:57.950] [DEBUG] debug-file - Executing task :entry:default@BuildNativeWithNinja
+[2025-03-12T17:41:57.950] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-03-12T17:41:57.951] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-03-12T17:41:57.951] [DEBUG] debug-file - entry : default@BuildNativeWithNinja cost memory 0.06029510498046875
+[2025-03-12T17:41:57.951] [DEBUG] debug-file - runTaskFromQueue task cost before running: 272 ms 
+[2025-03-12T17:41:57.952] [INFO] debug-file - Finished :entry:default@BuildNativeWithNinja... after 2 ms 
+[2025-03-12T17:41:57.952] [DEBUG] debug-file - Executing task :entry:default@HMRouterCopyRouterMapToRawFileTask
+[2025-03-12T17:41:57.952] [DEBUG] debug-file - entry:default@HMRouterCopyRouterMapToRawFileTask is declared as IncrementTask, but does not implement any incremental method.
+[2025-03-12T17:41:57.953] [DEBUG] debug-file - entry : default@HMRouterCopyRouterMapToRawFileTask cost memory 0.19244384765625
+[2025-03-12T17:41:57.953] [DEBUG] debug-file - runTaskFromQueue task cost before running: 273 ms 
+[2025-03-12T17:41:57.953] [DEBUG] debug-file - entry:default@HMRouterCopyRouterMapToRawFileTask is declared as IncrementTask, but does not implement any incremental method.
+[2025-03-12T17:41:57.953] [INFO] debug-file - Finished :entry:default@HMRouterCopyRouterMapToRawFileTask... after 1 ms 
+[2025-03-12T17:41:57.953] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-03-12T17:41:57.953] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-03-12T17:41:57.955] [DEBUG] debug-file - Executing task :entry:default@GenerateLoaderJson
+[2025-03-12T17:41:57.961] [DEBUG] debug-file - entry:default@GenerateLoaderJson is not up-to-date, since the input file '/Users/shaozejun/Desktop/jason_code/HarmonyHanBook/entry/build/default/intermediates/router_map/default/loader-router-map.json' has been changed.
+[2025-03-12T17:41:57.961] [DEBUG] debug-file - Incremental task entry:default@GenerateLoaderJson pre-execution cost: 5 ms .
+[2025-03-12T17:41:57.964] [DEBUG] debug-file - entry : default@GenerateLoaderJson cost memory 1.1633987426757812
+[2025-03-12T17:41:57.964] [DEBUG] debug-file - runTaskFromQueue task cost before running: 285 ms 
+[2025-03-12T17:41:57.965] [INFO] debug-file - Finished :entry:default@GenerateLoaderJson... after 10 ms 
+[2025-03-12T17:41:57.966] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-03-12T17:41:57.966] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-03-12T17:41:57.966] [DEBUG] debug-file - Executing task :entry:default@MakePackInfo
+[2025-03-12T17:41:57.967] [DEBUG] debug-file - Incremental task entry:default@MakePackInfo pre-execution cost: 1 ms .
+[2025-03-12T17:41:57.967] [DEBUG] debug-file - entry : default@MakePackInfo cost memory 0.1244659423828125
+[2025-03-12T17:41:57.967] [INFO] debug-file - UP-TO-DATE :entry:default@MakePackInfo...  
+[2025-03-12T17:41:57.968] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-03-12T17:41:57.968] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-03-12T17:41:57.968] [DEBUG] debug-file - Executing task :entry:default@ProcessProfile
+[2025-03-12T17:41:57.968] [DEBUG] debug-file - Incremental task entry:default@ProcessProfile pre-execution cost: 1 ms .
+[2025-03-12T17:41:57.968] [DEBUG] debug-file - entry : default@ProcessProfile cost memory 0.04602813720703125
+[2025-03-12T17:41:57.969] [INFO] debug-file - UP-TO-DATE :entry:default@ProcessProfile...  
+[2025-03-12T17:41:57.969] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-03-12T17:41:57.969] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-03-12T17:41:57.969] [DEBUG] debug-file - Executing task :entry:default@ProcessLibs
+[2025-03-12T17:41:57.972] [DEBUG] debug-file - Incremental task entry:default@ProcessLibs pre-execution cost: 2 ms .
+[2025-03-12T17:41:57.972] [DEBUG] debug-file - entry : default@ProcessLibs cost memory 0.25914764404296875
+[2025-03-12T17:41:57.972] [INFO] debug-file - UP-TO-DATE :entry:default@ProcessLibs...  
+[2025-03-12T17:41:57.973] [DEBUG] debug-file - Executing task :entry:default@ProcessResource
+[2025-03-12T17:41:57.973] [DEBUG] debug-file - Incremental task entry:default@ProcessResource pre-execution cost: 1 ms .
+[2025-03-12T17:41:57.973] [DEBUG] debug-file - entry : default@ProcessResource cost memory 0.13338470458984375
+[2025-03-12T17:41:57.975] [INFO] debug-file - UP-TO-DATE :entry:default@ProcessResource...  
+[2025-03-12T17:41:57.975] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-03-12T17:41:57.975] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-03-12T17:41:57.977] [DEBUG] debug-file - Executing task :entry:default@DoNativeStrip
+[2025-03-12T17:41:57.978] [DEBUG] debug-file - Task 'entry:default@DoNativeStrip' cost while wrapping incremental declarations: 1 ms 
+[2025-03-12T17:41:57.978] [DEBUG] debug-file - Incremental task entry:default@DoNativeStrip pre-execution cost: 1 ms .
+[2025-03-12T17:41:57.978] [DEBUG] debug-file - entry : default@DoNativeStrip cost memory 0.117889404296875
+[2025-03-12T17:41:57.978] [INFO] debug-file - UP-TO-DATE :entry:default@DoNativeStrip...  
+[2025-03-12T17:41:57.979] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-03-12T17:41:57.979] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-03-12T17:41:57.979] [DEBUG] debug-file - restool module names: entry; moduleName=entry, taskName=default@CompileResource
+[2025-03-12T17:41:57.980] [DEBUG] debug-file - Executing task :entry:default@CompileResource
+[2025-03-12T17:41:57.982] [DEBUG] debug-file - entry:default@CompileResource is not up-to-date, since the input file '/Users/shaozejun/Desktop/jason_code/HarmonyHanBook/entry/src/main/resources' has been changed.
+[2025-03-12T17:41:57.982] [DEBUG] debug-file - Incremental task entry:default@CompileResource pre-execution cost: 2 ms .
+[2025-03-12T17:41:58.001] [DEBUG] debug-file - Use tool [/Applications/DevEco-Studio.app/Contents/sdk/default/openharmony/toolchains/restool]
+ [
+  '/Applications/DevEco-Studio.app/Contents/sdk/default/openharmony/toolchains/restool',
+  '-l',
+  '/Users/shaozejun/Desktop/jason_code/HarmonyHanBook/entry/build/default/intermediates/res/default/resConfig.json'
+]
+[2025-03-12T17:41:58.002] [DEBUG] debug-file - current process  memoryUsage: {
+  rss: 142639104,
+  heapTotal: 207699968,
+  heapUsed: 173896424,
+  external: 3012152,
+  arrayBuffers: 1031963
+} os memoryUsage :15.935775756835938
+[2025-03-12T17:41:58.142] [DEBUG] debug-file - 03-12 17:41:58.141 51405 16426741 E C01400/ImageTranscoderUtils: DecodeToRGBA IN
+03-12 17:41:58.142 51405 16426741 E C01400/ImageTranscoderUtils: ImageFilter IN /Users/shaozejun/Desktop/jason_code/HarmonyHanBook/AppScope/resources/base/media/ic_hanbook.png
+
+[2025-03-12T17:41:58.207] [DEBUG] debug-file - Info: restool resources compile success.
+
+[2025-03-12T17:41:58.211] [DEBUG] debug-file - astcenc customized so is not be opened when dlclose!
+
+[2025-03-12T17:41:58.217] [DEBUG] debug-file - entry : default@CompileResource cost memory -19.224807739257812
+[2025-03-12T17:41:58.218] [DEBUG] debug-file - runTaskFromQueue task cost before running: 539 ms 
+[2025-03-12T17:41:58.219] [INFO] debug-file - Finished :entry:default@CompileResource... after 237 ms 
+[2025-03-12T17:41:58.220] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-03-12T17:41:58.220] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-03-12T17:41:58.221] [DEBUG] debug-file - Executing task :entry:default@CacheNativeLibs
+[2025-03-12T17:41:58.221] [DEBUG] debug-file - Task 'entry:default@CacheNativeLibs' cost while wrapping incremental declarations: 1 ms 
+[2025-03-12T17:41:58.222] [DEBUG] debug-file - Incremental task entry:default@CacheNativeLibs pre-execution cost: 1 ms .
+[2025-03-12T17:41:58.222] [DEBUG] debug-file - entry : default@CacheNativeLibs cost memory 0.12441253662109375
+[2025-03-12T17:41:58.222] [INFO] debug-file - UP-TO-DATE :entry:default@CacheNativeLibs...  
+[2025-03-12T17:41:58.223] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-03-12T17:41:58.223] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-03-12T17:41:58.224] [DEBUG] debug-file - Executing task :entry:default@CompileArkTS
+[2025-03-12T17:41:58.228] [DEBUG] debug-file - entry:default@CompileArkTS is not up-to-date, since the input file '/Users/shaozejun/Desktop/jason_code/HarmonyHanBook/entry/build/default/intermediates/loader/default' has been changed.
+[2025-03-12T17:41:58.228] [DEBUG] debug-file - Incremental task entry:default@CompileArkTS pre-execution cost: 3 ms .
+[2025-03-12T17:41:58.235] [DEBUG] debug-file - build config:
+[2025-03-12T17:41:58.235] [DEBUG] debug-file - {
+  moduleType: 'entry',
+  perf: 0,
+  targetName: '.default',
+  packageManagerType: 'ohpm',
+  localPropertiesPath: '/Users/shaozejun/Desktop/jason_code/HarmonyHanBook/local.properties',
+  isPreview: false,
+  isOhosTest: false,
+  isLocalTest: false,
+  buildMode: 'Debug',
+  watchMode: 'false',
+  aceProfilePath: '/Users/shaozejun/Desktop/jason_code/HarmonyHanBook/entry/build/default/intermediates/res/default/resources/base/profile',
+  etsLoaderPath: '/Applications/DevEco-Studio.app/Contents/sdk/default/openharmony/ets/build-tools/ets-loader',
+  modulePath: '/Users/shaozejun/Desktop/jason_code/HarmonyHanBook/entry',
+  testFrameworkPar: {
+    testMode: undefined,
+    coveragePathFilter: undefined,
+    coverageMode: undefined
+  },
+  needCoverageInsert: false,
+  debugLine: false,
+  projectTopDir: '/Users/shaozejun/Desktop/jason_code/HarmonyHanBook',
+  compileSdkVersion: 15,
+  compatibleSdkVersion: 14,
+  compatibleSdkVersionStage: undefined,
+  bundleName: 'c***k',
+  etsLoaderVersion: '5.0.3.131',
+  etsLoaderReleaseType: 'Beta2',
+  aotCompileMode: 'type',
+  apPath: '/Users/shaozejun/Desktop/jason_code/HarmonyHanBook/entry/modules.ap',
+  entryModuleName: 'entry',
+  entryModuleVersion: '1.0.0',
+  entryPackageName: 'entry',
+  allModuleNameHash: 'a9987f2d5b5ae02e4c8e66f4c5b42537',
+  externalApiPaths: [ '/Applications/DevEco-Studio.app/Contents/sdk/default/hms/ets' ],
+  compilerTypes: undefined,
+  isCrossplatform: false,
+  hvigorPluginFile: undefined,
+  compilePluginPath: undefined,
+  buildGeneratedProfilePath: '/Users/shaozejun/Desktop/jason_code/HarmonyHanBook/entry/build/default/generated/profile/default',
+  bundleType: 'app',
+  arkTSVersion: undefined,
+  apiVersion: 15,
+  needCompleteSourcesMap: false,
+  isFaMode: false,
+  strictMode: {
+    caseSensitiveCheck: true,
+    useNormalizedOHMUrl: true,
+    noExternalImportByPath: true
+  },
+  buildDir: '/Users/shaozejun/Desktop/jason_code/HarmonyHanBook/entry/build',
+  deviceTypes: [ 'phone', 'tablet', '2in1' ],
+  useNormalizedOHMUrl: true,
+  pkgContextInfo: {
+    '@hadss/hmrouter': {
+      packageName: '@hadss/hmrouter',
+      bundleName: '*****',
+      moduleName: '',
+      version: '1.0.0-rc.11',
+      entryPath: 'Index',
+      isSO: false,
+      dependencyAlias: ''
+    },
+    '@ohos/hypium': {
+      packageName: '@ohos/hypium',
+      bundleName: '*****',
+      moduleName: '',
+      version: '1.0.21',
+      entryPath: 'index.js',
+      isSO: false,
+      dependencyAlias: ''
+    },
+    '@ohos/hamock': {
+      packageName: '@ohos/hamock',
+      bundleName: '*****',
+      moduleName: '',
+      version: '1.0.0',
+      entryPath: 'index.ets',
+      isSO: false,
+      dependencyAlias: ''
+    },
+    'libhmrouterlibrary.so': {
+      packageName: 'libhmrouterlibrary.so',
+      bundleName: '*****',
+      moduleName: '',
+      version: '',
+      entryPath: 'Index',
+      isSO: true,
+      dependencyAlias: ''
+    },
+    entry: {
+      packageName: 'entry',
+      bundleName: '*****',
+      moduleName: '',
+      version: '',
+      entryPath: 'src/main/',
+      isSO: false,
+      dependencyAlias: ''
+    },
+    'libc++_shared.so': {
+      packageName: 'libc++_shared.so',
+      bundleName: '*****',
+      moduleName: '',
+      version: '',
+      entryPath: '',
+      isSO: true,
+      dependencyAlias: ''
+    }
+  },
+  ohPackagePathMap: {},
+  dependencyAliasMap: {},
+  permission: { requestPermissions: undefined, definePermissions: undefined },
+  integratedHsp: false,
+  projectArkOption: { runtimeOnly: { sources: [Array] } },
+  sourceMapDir: undefined,
+  branchElimination: false,
+  transformLib: undefined,
+  caseSensitiveCheck: true,
+  tsImportSendable: false,
+  resolveConflictMode: true,
+  depName2RootPath: {},
+  depName2DepInfo: {},
+  rootPathSet: [ '/Users/shaozejun/Desktop/jason_code/HarmonyHanBook' ],
+  useNativeResolver: true,
+  shouldEmitJs: true,
+  autoLazyImport: undefined,
+  allowEmptyBundleName: false,
+  singleFileEmit: false,
+  aceModuleJsonPath: '/Users/shaozejun/Desktop/jason_code/HarmonyHanBook/entry/build/default/intermediates/res/default/ark_module.json',
+  appResource: '/Users/shaozejun/Desktop/jason_code/HarmonyHanBook/entry/build/default/intermediates/res/default/ResourceTable.txt',
+  rawFileResource: '/Users/shaozejun/Desktop/jason_code/HarmonyHanBook/entry/build/default/intermediates/res/default/resources/rawfile',
+  resourceTableHash: 'dfa62446fcc1e2835b09f5bf8d0db01e',
+  runtimeOS: 'HarmonyOS',
+  sdkInfo: 'false:15:5.0.3.131:Beta2',
+  aceModuleRoot: '/Users/shaozejun/Desktop/jason_code/HarmonyHanBook/entry/src/main/ets',
+  compileMode: 'esmodule',
+  aceSuperVisualPath: '/Users/shaozejun/Desktop/jason_code/HarmonyHanBook/entry/src/main/supervisual',
+  aceBuildJson: '/Users/shaozejun/Desktop/jason_code/HarmonyHanBook/entry/build/default/intermediates/loader/default/loader.json',
+  cachePath: '/Users/shaozejun/Desktop/jason_code/HarmonyHanBook/entry/build/default/cache/default/default@CompileArkTS/esmodule/debug',
+  aceModuleBuild: '/Users/shaozejun/Desktop/jason_code/HarmonyHanBook/entry/build/default/intermediates/loader_out/default/ets',
+  supportChunks: true,
+  declaredFilesPath: undefined,
+  pkgNameToPkgBriefInfo: {
+    '@hadss/hmrouter': {
+      pkgRoot: '/Users/shaozejun/Desktop/jason_code/HarmonyHanBook/oh_modules/.ohpm/@hadss+hmrouter@1.0.0-rc.11/oh_modules/@hadss/hmrouter',
+      pkgName: '@hadss/hmrouter',
+      sourceRoots: [Array]
+    },
+    entry: {
+      pkgRoot: '/Users/shaozejun/Desktop/jason_code/HarmonyHanBook/entry',
+      originalSourceRoots: undefined,
+      sourceRoots: [Array],
+      pkgName: 'entry'
+    }
+  },
+  projectModel: {
+    '/Users/shaozejun/Desktop/jason_code/HarmonyHanBook/entry/src/main': {
+      moduleName: 'entry',
+      modulePkgPath: '/Users/shaozejun/Desktop/jason_code/HarmonyHanBook/entry',
+      belongProjectPath: '/Users/shaozejun/Desktop/jason_code/HarmonyHanBook'
+    },
+    '/Users/shaozejun/Desktop/jason_code/HarmonyHanBook/entry/build/default/intermediates/src/ohosTest/ets': {
+      moduleName: 'entry_test',
+      modulePkgPath: '/Users/shaozejun/Desktop/jason_code/HarmonyHanBook/entry',
+      belongProjectPath: '/Users/shaozejun/Desktop/jason_code/HarmonyHanBook'
+    },
+    '/Users/shaozejun/Desktop/jason_code/HarmonyHanBook/entry/src/ohosTest': {
+      moduleName: 'entry_test',
+      modulePkgPath: '/Users/shaozejun/Desktop/jason_code/HarmonyHanBook/entry',
+      belongProjectPath: '/Users/shaozejun/Desktop/jason_code/HarmonyHanBook'
+    },
+    '/Users/shaozejun/Desktop/jason_code/HarmonyHanBook/entry': {
+      moduleName: 'entry',
+      modulePkgPath: '/Users/shaozejun/Desktop/jason_code/HarmonyHanBook/entry',
+      belongProjectPath: '/Users/shaozejun/Desktop/jason_code/HarmonyHanBook'
+    },
+    '/Users/shaozejun/Desktop/jason_code/HarmonyHanBook': {
+      moduleName: 'HarmonyHanBook',
+      modulePkgPath: '/Users/shaozejun/Desktop/jason_code/HarmonyHanBook',
+      belongProjectPath: '/Users/shaozejun/Desktop/jason_code/HarmonyHanBook'
+    }
+  },
+  pkgJsonFileHash: '8ee752c0df88b2a4b482dd5dcb43eae4',
+  allModulePaths: [ '/Users/shaozejun/Desktop/jason_code/HarmonyHanBook/entry' ],
+  routerMap: {},
+  obfuscationOptions: undefined,
+  compileBlockPkg: [ '@hadss/hmrouter' ],
+  mockParams: {
+    decorator: '@MockSetup',
+    packageName: '@ohos/hamock',
+    etsSourceRootPath: 'src/main/ets',
+    mockConfigPath: '/Users/shaozejun/Desktop/jason_code/HarmonyHanBook/entry/src/mock/mock-config.json5',
+    mockConfigKey2ModuleInfo: {}
+  },
+  copyCodeResourceEnable: true,
+  copyCodeResourceExcludes: [],
+  otherPaths: {
+    '@hadss/hmrouter/*': [
+      '../../../../oh_modules/.ohpm/@hadss+hmrouter@1.0.0-rc.11/oh_modules/@hadss/hmrouter/src/main/*'
+    ],
+    'entry/*': [ '../*', '../../../build/default/generated/profile/default/*' ]
+  },
+  collectImportersConfig: undefined
+}
+[2025-03-12T17:41:58.235] [DEBUG] debug-file - Compile arkts with external api path: /Applications/DevEco-Studio.app/Contents/sdk/default/hms/ets
+[2025-03-12T17:41:58.235] [DEBUG] debug-file - default@CompileArkTS work[182] is submitted.
+[2025-03-12T17:41:58.236] [DEBUG] debug-file - default@CompileArkTS work[182] is pushed to ready queue.
+[2025-03-12T17:41:58.236] [DEBUG] debug-file - default@CompileArkTS work[182] is not dispatched.
+[2025-03-12T17:41:58.236] [DEBUG] debug-file - CopyResources startTime: 1807879218661125
+[2025-03-12T17:41:58.236] [DEBUG] debug-file - default@CompileArkTS work[183] is submitted.
+[2025-03-12T17:41:58.237] [DEBUG] debug-file - default@CompileArkTS work[183] is pushed to ready queue.
+[2025-03-12T17:41:58.237] [DEBUG] debug-file - default@CompileArkTS work[183] is not dispatched.
+[2025-03-12T17:41:58.237] [DEBUG] debug-file - entry : default@CompileArkTS cost memory 1.365875244140625
+[2025-03-12T17:41:58.238] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-03-12T17:41:58.238] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-03-12T17:41:58.239] [DEBUG] debug-file - Executing task :entry:default@BuildJS
+[2025-03-12T17:41:58.241] [DEBUG] debug-file - entry : default@BuildJS cost memory 0.12750244140625
+[2025-03-12T17:41:58.241] [DEBUG] debug-file - runTaskFromQueue task cost before running: 561 ms 
+[2025-03-12T17:41:58.241] [INFO] debug-file - Finished :entry:default@BuildJS... after 2 ms 
+[2025-03-12T17:41:58.438] [DEBUG] debug-file - A work dispatched to worker[7] failed because unable to get work from ready queue.
+[2025-03-12T17:41:58.438] [DEBUG] debug-file - Create  resident worker with id: 6.
+[2025-03-12T17:41:58.439] [DEBUG] debug-file - default@CompileArkTS work[183] has been dispatched to worker[6].
+[2025-03-12T17:41:58.942] [DEBUG] debug-file - A work dispatched to worker[7] failed because unable to get work from ready queue.
+[2025-03-12T17:41:58.942] [DEBUG] debug-file - A work dispatched to worker[6] failed because of worker busy.
+[2025-03-12T17:41:58.942] [DEBUG] debug-file - A work dispatched to worker[5] failed because unable to get work from ready queue.
+[2025-03-12T17:41:58.943] [DEBUG] debug-file - default@CompileArkTS work[182] has been dispatched to worker[4].
+[2025-03-12T17:41:59.047] [DEBUG] debug-file - worker[6] has one work done.
+[2025-03-12T17:41:59.047] [DEBUG] debug-file - CopyResources is end, endTime: 1807880028960041
+[2025-03-12T17:41:59.047] [DEBUG] debug-file - default@CompileArkTS work[183] done.
+[2025-03-12T17:41:59.047] [DEBUG] debug-file - A work dispatched to worker[6] failed because unable to get work from ready queue.
+[2025-03-12T17:41:59.644] [DEBUG] debug-file - worker[4] has one work done.
+[2025-03-12T17:41:59.646] [DEBUG] debug-file - default@CompileArkTS work[182] done.
+[2025-03-12T17:41:59.646] [DEBUG] debug-file - A work dispatched to worker[4] failed because unable to get work from ready queue.
+[2025-03-12T17:41:59.647] [INFO] debug-file - Finished :entry:default@CompileArkTS... after 714 ms 
+[2025-03-12T17:41:59.647] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-03-12T17:41:59.647] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-03-12T17:41:59.647] [DEBUG] debug-file - Executing task :entry:default@GeneratePkgModuleJson
+[2025-03-12T17:41:59.647] [DEBUG] debug-file - Task 'entry:default@GeneratePkgModuleJson' cost while wrapping incremental declarations: 1 ms 
+[2025-03-12T17:41:59.647] [DEBUG] debug-file - entry:default@GeneratePkgModuleJson is not up-to-date, since the input file '/Users/shaozejun/Desktop/jason_code/HarmonyHanBook/entry/build/default/intermediates/res/default/module.json' has been changed.
+[2025-03-12T17:41:59.647] [DEBUG] debug-file - Incremental task entry:default@GeneratePkgModuleJson pre-execution cost: 1 ms .
+[2025-03-12T17:41:59.648] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-03-12T17:41:59.648] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-03-12T17:41:59.648] [DEBUG] debug-file - entry : default@GeneratePkgModuleJson cost memory 0.0993194580078125
+[2025-03-12T17:41:59.648] [DEBUG] debug-file - runTaskFromQueue task cost before running: 1 s 969 ms 
+[2025-03-12T17:41:59.648] [INFO] debug-file - Finished :entry:default@GeneratePkgModuleJson... after 1 ms 
+[2025-03-12T17:41:59.649] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-03-12T17:41:59.649] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-03-12T17:41:59.651] [DEBUG] debug-file - Executing task :entry:default@PackageHap
+[2025-03-12T17:41:59.652] [DEBUG] debug-file - entry:default@PackageHap is not up-to-date, since the input file '/Users/shaozejun/Desktop/jason_code/HarmonyHanBook/entry/build/default/intermediates/res/default/module.json' has been changed.
+[2025-03-12T17:41:59.652] [DEBUG] debug-file - Incremental task entry:default@PackageHap pre-execution cost: 1 ms .
+[2025-03-12T17:41:59.652] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-03-12T17:41:59.652] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-03-12T17:41:59.653] [DEBUG] debug-file - Use tool [/Applications/DevEco-Studio.app/Contents/sdk/default/openharmony/toolchains/lib/app_packing_tool.jar]
+ [
+  'java',
+  '-Dfile.encoding=utf-8',
+  '-jar',
+  '/Applications/DevEco-Studio.app/Contents/sdk/default/openharmony/toolchains/lib/app_packing_tool.jar',
+  '--mode',
+  'hap',
+  '--force',
+  'true',
+  '--lib-path',
+  '/Users/shaozejun/Desktop/jason_code/HarmonyHanBook/entry/build/default/intermediates/stripped_native_libs/default',
+  '--json-path',
+  '/Users/shaozejun/Desktop/jason_code/HarmonyHanBook/entry/build/default/intermediates/package/default/module.json',
+  '--resources-path',
+  '/Users/shaozejun/Desktop/jason_code/HarmonyHanBook/entry/build/default/intermediates/res/default/resources',
+  '--index-path',
+  '/Users/shaozejun/Desktop/jason_code/HarmonyHanBook/entry/build/default/intermediates/res/default/resources.index',
+  '--pack-info-path',
+  '/Users/shaozejun/Desktop/jason_code/HarmonyHanBook/entry/build/default/outputs/default/pack.info',
+  '--out-path',
+  '/Users/shaozejun/Desktop/jason_code/HarmonyHanBook/entry/build/default/outputs/default/entry-default-unsigned.hap',
+  '--ets-path',
+  '/Users/shaozejun/Desktop/jason_code/HarmonyHanBook/entry/build/default/intermediates/loader_out/default/ets',
+  '--pkg-context-path',
+  '/Users/shaozejun/Desktop/jason_code/HarmonyHanBook/entry/build/default/intermediates/loader/default/pkgContextInfo.json'
+]
+[2025-03-12T17:41:59.653] [DEBUG] debug-file - default@PackageHap work[184] is submitted.
+[2025-03-12T17:41:59.654] [DEBUG] debug-file - default@PackageHap work[184] is pushed to ready queue.
+[2025-03-12T17:41:59.654] [DEBUG] debug-file - A work dispatched to worker[7] failed because unable to get work from ready queue.
+[2025-03-12T17:41:59.654] [DEBUG] debug-file - default@PackageHap work[184] has been dispatched to worker[6].
+[2025-03-12T17:41:59.654] [DEBUG] debug-file - default@PackageHap work[184] is dispatched.
+[2025-03-12T17:41:59.657] [DEBUG] debug-file - entry : default@PackageHap cost memory 0.63543701171875
+[2025-03-12T17:41:59.695] [DEBUG] debug-file - current process  memoryUsage: {
+  rss: 602570752,
+  heapTotal: 75546624,
+  heapUsed: 51124304,
+  external: 2645051,
+  arrayBuffers: 674162
+} os memoryUsage :15.875030517578125
+[2025-03-12T17:41:59.968] [DEBUG] debug-file - worker[6] has one work done.
+[2025-03-12T17:41:59.968] [DEBUG] debug-file - default@PackageHap work[184] done.
+[2025-03-12T17:41:59.968] [DEBUG] debug-file - A work dispatched to worker[6] failed because unable to get work from ready queue.
+[2025-03-12T17:41:59.969] [INFO] debug-file - Finished :entry:default@PackageHap... after 281 ms 
+[2025-03-12T17:41:59.970] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-03-12T17:41:59.970] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-03-12T17:41:59.971] [DEBUG] debug-file - Executing task :entry:default@SignHap
+[2025-03-12T17:41:59.971] [WARN] debug-file - Will skip sign 'hos_hap'. No signingConfigs profile is configured in current project.
+             If needed, configure the signingConfigs in /Users/shaozejun/Desktop/jason_code/HarmonyHanBook/build-profile.json5.
+[2025-03-12T17:41:59.971] [DEBUG] debug-file - entry:default@SignHap is not up-to-date, since the input file '/Users/shaozejun/Desktop/jason_code/HarmonyHanBook/entry/build/default/outputs/default/entry-default-unsigned.hap' has been changed.
+[2025-03-12T17:41:59.971] [DEBUG] debug-file - Incremental task entry:default@SignHap pre-execution cost: 1 ms .
+[2025-03-12T17:41:59.971] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-03-12T17:41:59.971] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-03-12T17:41:59.971] [DEBUG] debug-file - entry : default@SignHap cost memory 0.09922027587890625
+[2025-03-12T17:41:59.971] [DEBUG] debug-file - runTaskFromQueue task cost before running: 2 s 292 ms 
+[2025-03-12T17:41:59.971] [INFO] debug-file - Finished :entry:default@SignHap... after 1 ms 
+[2025-03-12T17:41:59.972] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-03-12T17:41:59.972] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-03-12T17:41:59.972] [DEBUG] debug-file - Executing task :entry:default@CollectDebugSymbol
+[2025-03-12T17:41:59.974] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-03-12T17:41:59.974] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-03-12T17:41:59.974] [DEBUG] debug-file - entry : default@CollectDebugSymbol cost memory 0.27371978759765625
+[2025-03-12T17:41:59.974] [DEBUG] debug-file - runTaskFromQueue task cost before running: 2 s 295 ms 
+[2025-03-12T17:41:59.974] [INFO] debug-file - Finished :entry:default@CollectDebugSymbol... after 2 ms 
+[2025-03-12T17:41:59.974] [DEBUG] debug-file - Executing task :entry:assembleHap
+[2025-03-12T17:41:59.974] [DEBUG] debug-file - entry : assembleHap cost memory 0.01120758056640625
+[2025-03-12T17:41:59.975] [DEBUG] debug-file - runTaskFromQueue task cost before running: 2 s 295 ms 
+[2025-03-12T17:41:59.975] [INFO] debug-file - Finished :entry:assembleHap... after 1 ms 
+[2025-03-12T17:41:59.975] [DEBUG] debug-file - [HMRouterPlugin] buildFinished deleteFile exec...
+[2025-03-12T17:41:59.975] [DEBUG] debug-file - [HMRouterPlugin] /Users/shaozejun/Desktop/jason_code/HarmonyHanBook/entry/src/main/resources/base/profile/hm_router_map.json delete hm_router_map.json
+[2025-03-12T17:41:59.976] [DEBUG] debug-file - [HMRouterPlugin] /Users/shaozejun/Desktop/jason_code/HarmonyHanBook/entry delete rawfile hm_router_map.json
+[2025-03-12T17:41:59.976] [DEBUG] debug-file - [HMRouterPlugin] /Users/shaozejun/Desktop/jason_code/HarmonyHanBook/entry delete builder dir
+[2025-03-12T17:41:59.976] [DEBUG] debug-file - BUILD SUCCESSFUL in 2 s 297 ms 
+[2025-03-12T17:41:59.976] [DEBUG] debug-file - There is no need to refresh cache, since the incremental task entry:default@PreBuild is up-to-date.
+[2025-03-12T17:41:59.976] [DEBUG] debug-file - There is no need to refresh cache, since the incremental task entry:default@GenerateMetadata is up-to-date.
+[2025-03-12T17:41:59.976] [DEBUG] debug-file - There is no need to refresh cache, since the incremental task entry:default@CreateBuildProfile is up-to-date.
+[2025-03-12T17:41:59.976] [DEBUG] debug-file - There is no need to refresh cache, since the incremental task entry:default@GeneratePkgContextInfo is up-to-date.
+[2025-03-12T17:41:59.977] [DEBUG] debug-file - Update task entry:default@ProcessIntegratedHsp output file:/Users/shaozejun/Desktop/jason_code/HarmonyHanBook/build/cache/default/integrated_hsp/integratedHspCache.json cache.
+[2025-03-12T17:41:59.977] [DEBUG] debug-file - Incremental task entry:default@ProcessIntegratedHsp post-execution cost:1 ms .
+[2025-03-12T17:41:59.977] [DEBUG] debug-file - Update task entry:default@SyscapTransform input file:/Applications/DevEco-Studio.app/Contents/sdk/default/openharmony/toolchains/syscap_tool cache by regenerate.
+[2025-03-12T17:41:59.977] [DEBUG] debug-file - Update task entry:default@SyscapTransform input file:/Applications/DevEco-Studio.app/Contents/sdk/default/openharmony/ets/api/device-define cache by regenerate.
+[2025-03-12T17:41:59.977] [DEBUG] debug-file - Update task entry:default@SyscapTransform output file:/Users/shaozejun/Desktop/jason_code/HarmonyHanBook/entry/build/default/intermediates/syscap/default/rpcid.sc cache.
+[2025-03-12T17:41:59.977] [DEBUG] debug-file - Incremental task entry:default@SyscapTransform post-execution cost:1 ms .
+[2025-03-12T17:41:59.977] [DEBUG] debug-file - Update task entry:default@ProcessRouterMap input file:/Users/shaozejun/Desktop/jason_code/HarmonyHanBook/entry/oh-package.json5 cache by regenerate.
+[2025-03-12T17:41:59.977] [DEBUG] debug-file - Update task entry:default@ProcessRouterMap input file:/Users/shaozejun/Desktop/jason_code/HarmonyHanBook/oh-package.json5 cache by regenerate.
+[2025-03-12T17:41:59.977] [DEBUG] debug-file - Update task entry:default@ProcessRouterMap input file:/Users/shaozejun/Desktop/jason_code/HarmonyHanBook/entry/src/main/module.json5 cache by regenerate.
+[2025-03-12T17:41:59.977] [DEBUG] debug-file - Update task entry:default@ProcessRouterMap input file:/Users/shaozejun/Desktop/jason_code/HarmonyHanBook/entry/build/default/intermediates/loader/default/pkgContextInfo.json cache by regenerate.
+[2025-03-12T17:41:59.977] [DEBUG] debug-file - Update task entry:default@ProcessRouterMap output file:/Users/shaozejun/Desktop/jason_code/HarmonyHanBook/entry/build/default/intermediates/router_map/default/hm_router_map.json cache.
+[2025-03-12T17:41:59.977] [DEBUG] debug-file - Update task entry:default@ProcessRouterMap output file:/Users/shaozejun/Desktop/jason_code/HarmonyHanBook/entry/build/default/intermediates/router_map/default/loader-router-map.json cache.
+[2025-03-12T17:41:59.977] [DEBUG] debug-file - Incremental task entry:default@ProcessRouterMap post-execution cost:1 ms .
+[2025-03-12T17:41:59.977] [DEBUG] debug-file - There is no need to refresh cache, since the incremental task entry:default@MergeProfile is up-to-date.
+[2025-03-12T17:41:59.978] [DEBUG] debug-file - Update task entry:default@GenerateLoaderJson input file:/Users/shaozejun/Desktop/jason_code/HarmonyHanBook/entry/src/mock/mock-config.json5 cache by regenerate.
+[2025-03-12T17:41:59.978] [DEBUG] debug-file - Update task entry:default@GenerateLoaderJson input file:/Users/shaozejun/Desktop/jason_code/HarmonyHanBook/entry/build/default/intermediates/loader/default/pkgContextInfo.json cache by regenerate.
+[2025-03-12T17:41:59.978] [DEBUG] debug-file - Update task entry:default@GenerateLoaderJson input file:/Users/shaozejun/Desktop/jason_code/HarmonyHanBook/entry/build/default/intermediates/router_map/default/loader-router-map.json cache from map.
+[2025-03-12T17:41:59.978] [DEBUG] debug-file - Update task entry:default@GenerateLoaderJson input file:/Users/shaozejun/Desktop/jason_code/HarmonyHanBook/entry/build/default/intermediates/router_map/default/hm_router_map.json cache by regenerate.
+[2025-03-12T17:41:59.978] [DEBUG] debug-file - Update task entry:default@GenerateLoaderJson input file:/Users/shaozejun/Desktop/jason_code/HarmonyHanBook/oh_modules/.ohpm/@hadss+hmrouter@1.0.0-rc.11/oh_modules/@hadss/hmrouter/ets/modules.abc cache by regenerate.
+[2025-03-12T17:41:59.978] [DEBUG] debug-file - Update task entry:default@GenerateLoaderJson output file:/Users/shaozejun/Desktop/jason_code/HarmonyHanBook/entry/build/default/intermediates/loader/default/loader.json cache.
+[2025-03-12T17:41:59.978] [DEBUG] debug-file - Incremental task entry:default@GenerateLoaderJson post-execution cost:2 ms .
+[2025-03-12T17:41:59.979] [DEBUG] debug-file - There is no need to refresh cache, since the incremental task entry:default@MakePackInfo is up-to-date.
+[2025-03-12T17:41:59.979] [DEBUG] debug-file - There is no need to refresh cache, since the incremental task entry:default@ProcessProfile is up-to-date.
+[2025-03-12T17:41:59.979] [DEBUG] debug-file - There is no need to refresh cache, since the incremental task entry:default@ProcessLibs is up-to-date.
+[2025-03-12T17:41:59.979] [DEBUG] debug-file - There is no need to refresh cache, since the incremental task entry:default@ProcessResource is up-to-date.
+[2025-03-12T17:41:59.979] [DEBUG] debug-file - There is no need to refresh cache, since the incremental task entry:default@DoNativeStrip is up-to-date.
+[2025-03-12T17:41:59.979] [DEBUG] debug-file - Update task entry:default@CompileResource input file:/Users/shaozejun/Desktop/jason_code/HarmonyHanBook/entry/src/main/resources cache from map.
+[2025-03-12T17:41:59.979] [DEBUG] debug-file - Update task entry:default@CompileResource input file:/Users/shaozejun/Desktop/jason_code/HarmonyHanBook/AppScope/resources cache by regenerate.
+[2025-03-12T17:41:59.979] [DEBUG] debug-file - Update task entry:default@CompileResource input file:/Users/shaozejun/Desktop/jason_code/HarmonyHanBook/entry/build/default/intermediates/process_profile/default/module.json cache by regenerate.
+[2025-03-12T17:41:59.979] [DEBUG] debug-file - Update task entry:default@CompileResource input file:/Users/shaozejun/Desktop/jason_code/HarmonyHanBook/entry/build/default/intermediates/router_map/default/hm_router_map.json cache by regenerate.
+[2025-03-12T17:41:59.979] [DEBUG] debug-file - Update task entry:default@CompileResource input file:/Users/shaozejun/Desktop/jason_code/HarmonyHanBook/entry/build/default/intermediates/res/default/resConfig.json cache by regenerate.
+[2025-03-12T17:41:59.979] [DEBUG] debug-file - Update task entry:default@CompileResource output file:/Users/shaozejun/Desktop/jason_code/HarmonyHanBook/entry/build/default/intermediates/res/default cache.
+[2025-03-12T17:41:59.980] [DEBUG] debug-file - Update task entry:default@CompileResource output file:/Users/shaozejun/Desktop/jason_code/HarmonyHanBook/entry/build/default/generated/r/default/ResourceTable.h cache.
+[2025-03-12T17:41:59.980] [DEBUG] debug-file - Update task entry:default@CompileResource output file:/Users/shaozejun/Desktop/jason_code/HarmonyHanBook/entry/build/default/generated/r/default cache.
+[2025-03-12T17:41:59.980] [DEBUG] debug-file - Incremental task entry:default@CompileResource post-execution cost:2 ms .
+[2025-03-12T17:41:59.980] [DEBUG] debug-file - There is no need to refresh cache, since the incremental task entry:default@CacheNativeLibs is up-to-date.
+[2025-03-12T17:41:59.981] [DEBUG] debug-file - Update task entry:default@CompileArkTS input file:/Users/shaozejun/Desktop/jason_code/HarmonyHanBook/entry/build/default/intermediates/loader/default cache from map.
+[2025-03-12T17:41:59.981] [DEBUG] debug-file - Update task entry:default@CompileArkTS input file:/Users/shaozejun/Desktop/jason_code/HarmonyHanBook/oh_modules/.ohpm/@hadss+hmrouter@1.0.0-rc.11/oh_modules/@hadss/hmrouter/src/main/ets cache by regenerate.
+[2025-03-12T17:41:59.982] [DEBUG] debug-file - Update task entry:default@CompileArkTS input file:/Users/shaozejun/Desktop/jason_code/HarmonyHanBook/entry/build/default/intermediates/res/default/resources/rawfile cache by regenerate.
+[2025-03-12T17:41:59.982] [DEBUG] debug-file - Update task entry:default@CompileArkTS input file:/Users/shaozejun/Desktop/jason_code/HarmonyHanBook/entry/build/default/intermediates/res/default/ResourceTable.txt cache by regenerate.
+[2025-03-12T17:41:59.982] [DEBUG] debug-file - Update task entry:default@CompileArkTS input file:/Users/shaozejun/Desktop/jason_code/HarmonyHanBook/entry/build/default/intermediates/res/default/ark_module.json cache by regenerate.
+[2025-03-12T17:41:59.982] [DEBUG] debug-file - Update task entry:default@CompileArkTS input file:/Users/shaozejun/Desktop/jason_code/HarmonyHanBook/entry/build/default/intermediates/res/default/resources/base/profile cache by regenerate.
+[2025-03-12T17:41:59.982] [DEBUG] debug-file - Update task entry:default@CompileArkTS input file:/Users/shaozejun/Desktop/jason_code/HarmonyHanBook/entry/src/main/ets cache by regenerate.
+[2025-03-12T17:41:59.983] [DEBUG] debug-file - Update task entry:default@CompileArkTS input file:/Users/shaozejun/Desktop/jason_code/HarmonyHanBook/entry/build/default/intermediates/loader/default/pkgContextInfo.json cache by regenerate.
+[2025-03-12T17:41:59.983] [DEBUG] debug-file - Update task entry:default@CompileArkTS input file:/Users/shaozejun/Desktop/jason_code/HarmonyHanBook/entry/build/default/generated/profile/default/BuildProfile.ets cache by regenerate.
+[2025-03-12T17:41:59.983] [DEBUG] debug-file - Update task entry:default@CompileArkTS input file:/Users/shaozejun/Desktop/jason_code/HarmonyHanBook/entry/src/mock/mock-config.json5 cache by regenerate.
+[2025-03-12T17:41:59.983] [DEBUG] debug-file - Update task entry:default@CompileArkTS output file:/Users/shaozejun/Desktop/jason_code/HarmonyHanBook/entry/build/default/intermediates/loader_out/default/ets cache.
+[2025-03-12T17:41:59.984] [DEBUG] debug-file - Incremental task entry:default@CompileArkTS post-execution cost:4 ms .
+[2025-03-12T17:41:59.984] [DEBUG] debug-file - Update task entry:default@BuildJS input file:/Users/shaozejun/Desktop/jason_code/HarmonyHanBook/entry/build/default/intermediates/loader/default cache by regenerate.
+[2025-03-12T17:41:59.984] [DEBUG] debug-file - Update task entry:default@BuildJS input file:/Users/shaozejun/Desktop/jason_code/HarmonyHanBook/entry/build/default/intermediates/res/default/resources/rawfile cache by regenerate.
+[2025-03-12T17:41:59.984] [DEBUG] debug-file - Update task entry:default@BuildJS input file:/Users/shaozejun/Desktop/jason_code/HarmonyHanBook/entry/build/default/intermediates/res/default/ResourceTable.txt cache by regenerate.
+[2025-03-12T17:41:59.984] [DEBUG] debug-file - Update task entry:default@BuildJS input file:/Users/shaozejun/Desktop/jason_code/HarmonyHanBook/entry/build/default/intermediates/res/default/ark_module.json cache by regenerate.
+[2025-03-12T17:41:59.984] [DEBUG] debug-file - Update task entry:default@BuildJS input file:/Users/shaozejun/Desktop/jason_code/HarmonyHanBook/entry/build/default/intermediates/res/default/resources/base/profile cache by regenerate.
+[2025-03-12T17:41:59.985] [DEBUG] debug-file - Update task entry:default@BuildJS input file:/Users/shaozejun/Desktop/jason_code/HarmonyHanBook/entry/build/default/intermediates/loader/default/pkgContextInfo.json cache by regenerate.
+[2025-03-12T17:41:59.985] [DEBUG] debug-file - Update task entry:default@BuildJS output file:/Users/shaozejun/Desktop/jason_code/HarmonyHanBook/entry/build/default/intermediates/loader_out/default/js cache.
+[2025-03-12T17:41:59.985] [DEBUG] debug-file - Incremental task entry:default@BuildJS post-execution cost:2 ms .
+[2025-03-12T17:41:59.985] [DEBUG] debug-file - Update task entry:default@GeneratePkgModuleJson input file:/Users/shaozejun/Desktop/jason_code/HarmonyHanBook/entry/build/default/intermediates/res/default/module.json cache from map.
+[2025-03-12T17:41:59.985] [DEBUG] debug-file - Update task entry:default@GeneratePkgModuleJson output file:/Users/shaozejun/Desktop/jason_code/HarmonyHanBook/entry/build/default/intermediates/package/default/module.json cache.
+[2025-03-12T17:41:59.985] [DEBUG] debug-file - Incremental task entry:default@GeneratePkgModuleJson post-execution cost:1 ms .
+[2025-03-12T17:41:59.985] [DEBUG] debug-file - Update task entry:default@PackageHap input file:/Users/shaozejun/Desktop/jason_code/HarmonyHanBook/entry/build/default/intermediates/stripped_native_libs/default cache by regenerate.
+[2025-03-12T17:41:59.985] [DEBUG] debug-file - Update task entry:default@PackageHap input file:/Users/shaozejun/Desktop/jason_code/HarmonyHanBook/entry/build/default/intermediates/res/default/module.json cache from map.
+[2025-03-12T17:41:59.985] [DEBUG] debug-file - Update task entry:default@PackageHap input file:/Users/shaozejun/Desktop/jason_code/HarmonyHanBook/entry/build/default/intermediates/res/default/resources cache by regenerate.
+[2025-03-12T17:41:59.986] [DEBUG] debug-file - Update task entry:default@PackageHap input file:/Users/shaozejun/Desktop/jason_code/HarmonyHanBook/entry/build/default/intermediates/res/default/resources.index cache by regenerate.
+[2025-03-12T17:41:59.986] [DEBUG] debug-file - Update task entry:default@PackageHap input file:/Users/shaozejun/Desktop/jason_code/HarmonyHanBook/entry/build/default/outputs/default/pack.info cache by regenerate.
+[2025-03-12T17:41:59.986] [DEBUG] debug-file - Update task entry:default@PackageHap input file:/Users/shaozejun/Desktop/jason_code/HarmonyHanBook/entry/build/default/intermediates/loader_out/default/ets cache by regenerate.
+[2025-03-12T17:41:59.986] [DEBUG] debug-file - Update task entry:default@PackageHap input file:/Users/shaozejun/Desktop/jason_code/HarmonyHanBook/entry/build/default/intermediates/loader/default/pkgContextInfo.json cache by regenerate.
+[2025-03-12T17:41:59.986] [DEBUG] debug-file - Update task entry:default@PackageHap input file:/Users/shaozejun/Desktop/jason_code/HarmonyHanBook/entry/build/default/intermediates/loader_out/default/ets/sourceMaps.map cache by regenerate.
+[2025-03-12T17:41:59.986] [DEBUG] debug-file - Update task entry:default@PackageHap input file:/Users/shaozejun/Desktop/jason_code/HarmonyHanBook/entry/build/default/generated/profile/default/BuildProfile.ets cache by regenerate.
+[2025-03-12T17:41:59.986] [DEBUG] debug-file - Update task entry:default@PackageHap output file:/Users/shaozejun/Desktop/jason_code/HarmonyHanBook/entry/build/default/outputs/default/entry-default-unsigned.hap cache.
+[2025-03-12T17:41:59.986] [DEBUG] debug-file - Update task entry:default@PackageHap output file:/Users/shaozejun/Desktop/jason_code/HarmonyHanBook/entry/build/default/intermediates/source_map/default/sourceMaps.map cache.
+[2025-03-12T17:41:59.986] [DEBUG] debug-file - Update task entry:default@PackageHap output file:/Users/shaozejun/Desktop/jason_code/HarmonyHanBook/entry/build/default/outputs/default/mapping/sourceMaps.map cache.
+[2025-03-12T17:41:59.987] [DEBUG] debug-file - Incremental task entry:default@PackageHap post-execution cost:2 ms .
+[2025-03-12T17:41:59.987] [DEBUG] debug-file - Update task entry:default@SignHap input file:/Users/shaozejun/Desktop/jason_code/HarmonyHanBook/entry/build/default/outputs/default/entry-default-unsigned.hap cache from map.
+[2025-03-12T17:41:59.987] [DEBUG] debug-file - Update task entry:default@SignHap output file:/Users/shaozejun/Desktop/jason_code/HarmonyHanBook/entry/build/default/outputs/default/entry-default-signed.hap cache.
+[2025-03-12T17:41:59.987] [DEBUG] debug-file - Incremental task entry:default@SignHap post-execution cost:1 ms .
+[2025-03-12T17:41:59.987] [DEBUG] debug-file - Update task entry:default@CollectDebugSymbol input file:/Users/shaozejun/Desktop/jason_code/HarmonyHanBook/entry/build/default/intermediates/loader_out/default/ets/sourceMaps.map cache by regenerate.
+[2025-03-12T17:41:59.988] [DEBUG] debug-file - Update task entry:default@CollectDebugSymbol input file:/Users/shaozejun/Desktop/jason_code/HarmonyHanBook/entry/build/default/intermediates/libs/default cache by regenerate.
+[2025-03-12T17:41:59.988] [DEBUG] debug-file - Update task entry:default@CollectDebugSymbol output file:/Users/shaozejun/Desktop/jason_code/HarmonyHanBook/entry/build/default/outputs/default/symbol cache.
+[2025-03-12T17:41:59.988] [DEBUG] debug-file - Incremental task entry:default@CollectDebugSymbol post-execution cost:2 ms .
+[2025-03-12T17:41:59.995] [DEBUG] debug-file - Cleanup worker 6.
+[2025-03-12T17:41:59.995] [DEBUG] debug-file - Worker 6 has been cleaned up.
+[2025-03-12T17:41:59.995] [DEBUG] debug-file - Current idle worker size: 1.
+[2025-03-12T17:41:59.995] [DEBUG] debug-file - Current resident worker size: 2.
+[2025-03-12T17:41:59.995] [DEBUG] debug-file - hvigor build process will be closed.
+[2025-03-12T17:41:59.998] [DEBUG] debug-file - session manager: send message to worker process.
+[2025-03-12T17:41:59.998] [DEBUG] debug-file - session manager: send message to worker process.
+[2025-03-12T17:41:59.998] [DEBUG] debug-file - watch worker: worker id should be larger than 0. Nothing will be sent to any worker thread.
+[2025-03-12T17:41:59.998] [DEBUG] debug-file - watch worker: worker id should be larger than 0. Nothing will be sent to any worker thread.
+[2025-03-12T17:42:00.000] [DEBUG] debug-file - worker[6] exits with exit code 1.
