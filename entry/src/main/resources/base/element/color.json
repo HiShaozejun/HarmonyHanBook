@@ -3,6 +3,22 @@
     {
       "name": "start_window_background",
       "value": "#FFFFFF"
+    },
+    {
+      "name": "navTitleColor",
+      "value": "#ffffff"
+    },
+    {
+      "name": "white",
+      "value": "#ffffff"
+    },
+    {
+      "name": "navBarColor",
+      "value": "#DB3C25"
+    },
+    {
+      "name": "placeholderColor",
+      "value": "#999999"
     }
   ]
 }

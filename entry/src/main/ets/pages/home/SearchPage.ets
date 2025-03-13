@@ -6,15 +6,21 @@
  * @Description : 搜索Page
  */
 import { HMNavigation, HMRouter, HMRouterMgr } from '@hadss/hmrouter';
+import { fullScreen } from '../../commons/utils/FullScreen';
+import { CustomNavBar } from '../../components/CustomNavBar';
 import { TAB_NAVIGATION_ID } from '../TabIndexPage';
 
 @HMRouter({pageUrl:"SearchPage"})
 @Component
 export struct SearchPage {
+
+  goBack(){
+    HMRouterMgr.pop()
+  }
+
   build() {
      Column(){
-       Text('search page').onClick(()=>{
-       })
+       CustomNavBar({navTitle:'SearchPage',backEvent:this.goBack})
      }
      .width('100%')
     .height('100%')

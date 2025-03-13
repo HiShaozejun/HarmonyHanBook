@@ -1,4 +1,5 @@
 import { router } from '@kit.ArkUI';
+import { fullScreen } from '../commons/utils/FullScreen';
 
 @Entry
 @Component
@@ -25,7 +26,7 @@ export struct SplashPage {
         .onError(() => {
           console.info("Video onError.");
         })
-        .onFinish(() => {
+        .onFinish(async () =>  {
           router.replaceUrl({ url: 'pages/TabIndexPage' });
         })
     }.height('100%')

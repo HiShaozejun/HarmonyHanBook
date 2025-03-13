@@ -5,22 +5,23 @@
  * @Author :  shaozejun
  * @Description : Home Tab
  */
+import { BannerView } from "./views/BannerView"
 
-import { HMRouter, HMRouterMgr } from '@hadss/hmrouter';
-
-// @HMRouter({pageUrl:'HomePage',interceptors:['JumpInfoInterceptor'],animator:'liveCommentsAnimator',lifecycle:'PageDurationLifecycle'})
-@HMRouter({pageUrl:'HomePage'})
 
 @Component
 export struct HomePage {
-
   build() {
-    Column(){
-      Navigation(){
-        Text('HomePage page').onClick(()=>{
-            HMRouterMgr.push({pageUrl:"SearchPage"})
-        })
-      }.title('HOmePage')
-    }.width('100%').height('100%')
+
+    Scroll() {
+      Column() {
+        BannerView()
+      }
+      .width('100%')
+      .height('100%')
+      .justifyContent(FlexAlign.Start)
+    }
+
+    .width('100%').height('100%')
+
   }
 }

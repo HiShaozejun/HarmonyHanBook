@@ -23,9 +23,16 @@ const PAGE_URL = 'TabIndexPage'
 @Entry
 @Component
 export struct TabIndexPage {
+
   modifier: MyNavModifier = new MyNavModifier();
   @State
   curIndex: number = 0;
+
+  @StorageProp('topHeight')
+  topHeight: number = 0
+
+  @StorageProp('bottomHeight')
+  bottomHeight: number = 0
 
   @Builder
   tabBarItem(title: string, normalIcon: ResourceStr, selectedIcon: ResourceStr, index: number) {
@@ -65,15 +72,18 @@ export struct TabIndexPage {
           }.tabBar(this.tabBarItem('Mine', $r('app.media.tab_me'), $r('app.media.tab_me_selected'), 3))
         }
         .vertical(false)
-        .barBackgroundColor(Color.White)
+
         .barPosition(BarPosition.End)
         .barWidth('100%')
+        .animationDuration(0)
         .scrollable(false)
         .onChange((index) => {
           this.curIndex = index;
         })
       }
-    }.width('100%').height('100%')
+    }
+    .width('100%').height('100%')
+    .padding({bottom:this.bottomHeight,top:this.topHeight})
     .justifyContent(FlexAlign.Center)
   }
 }
