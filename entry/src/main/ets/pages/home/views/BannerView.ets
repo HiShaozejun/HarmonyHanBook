@@ -9,7 +9,6 @@
 @Component
 export struct BannerView {
 
-  
   @Prop
   bannerUrl: string = 'https://cdn2.hancourse.net/image/2022/05/19/110809_6285b499a3aa7.jpg'
 
