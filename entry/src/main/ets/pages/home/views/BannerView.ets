@@ -7,7 +7,6 @@
  */
 import { HMRouterMgr } from "@hadss/hmrouter";
 import { LogUtil } from "../../../commons/utils/LogUtil";
-import json from "@ohos.util.json";
 
 @Component
 export struct BannerView {
@@ -47,15 +46,10 @@ export struct BannerView {
         .width('100%')
         .objectFit(ImageFit.Cover)
         .renderMode(ImageRenderMode.Original)
-        .onComplete((event) =>{
-          LogUtil.debugLog("Width -- " + (event?.width ?? 0).toString())
-          LogUtil.debugLog("Height -- " + (event?.height ?? 0).toString())
-          LogUtil.debugLog("contentWidth -- " + (event?.contentWidth ?? 0).toString())
-          LogUtil.debugLog("contentHeight -- " + (event?.contentHeight ?? 0).toString())
-        LogUtil.debugLog("componentWidth -- " + (event?.componentWidth ?? 0).toString())
-        LogUtil.debugLog("componentHeight -- " + (event?.componentHeight ?? 0).toString())
-        this.bannerViewHeight = px2vp(event?.componentHeight ?? 0);
-      })
+        .onComplete((event) => {
+          // 获取实际的图片高度，需要转为vp单位
+          this.bannerViewHeight = px2vp(event?.componentHeight ?? 0);
+        })
       Row({ space: 4 }) {
         Image($r('app.media.home_search')).width(18).height(18)
         Text('请输入汉字，PinYin，English').fontSize(15).fontColor($r('app.color.placeholderColor'))

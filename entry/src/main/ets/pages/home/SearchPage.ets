@@ -5,10 +5,9 @@
  * @Author :  shaozejun
  * @Description : 搜索Page
  */
+import { RefreshController } from '@abner/refresh';
 import { HMNavigation, HMRouter, HMRouterMgr } from '@hadss/hmrouter';
-import { fullScreen } from '../../commons/utils/FullScreen';
 import { CustomNavBar } from '../../components/CustomNavBar';
-import { TAB_NAVIGATION_ID } from '../TabIndexPage';
 
 @HMRouter({pageUrl:"SearchPage"})
 @Component
@@ -18,9 +17,26 @@ export struct SearchPage {
     HMRouterMgr.pop()
   }
 
+  @State mock:string[]= ['1','2','3','4']
+
+  private controller: RefreshController = new RefreshController();
+
+  @Builder
+  item(itemData:string,index: number) {
+    Column(){
+      Text(itemData).fontSize(19)
+    }
+  }
+
+  @Builder
+  onRefresh(){
+
+  }
+
   build() {
      Column(){
        CustomNavBar({navTitle:'SearchPage',backEvent:this.goBack})
+
      }
      .width('100%')
     .height('100%')
