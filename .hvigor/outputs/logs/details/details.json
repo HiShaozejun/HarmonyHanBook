@@ -9,8 +9,7 @@
         }
       }
     ],
-    "BUILD_MODE": "debug",
-    "USE_NORMALIZED_OHMURL": true
+    "BUILD_MODE": "debug"
   },
   "HVIGOR": {
     "IS_INCREMENTAL": true,
@@ -19,25 +18,24 @@
     "IS_HVIGORFILE_TYPE_CHECK": false,
     "TASK_TIME": {
       "1043bfc77febe75fafec0c4309faccf1": {
-        "ConfigureCmake": 243208,
-        "PreCheckSyscap": 261375,
-        "ProcessIntegratedHsp": 755458,
-        "BuildNativeWithCmake": 137208,
-        "SyscapTransform": 1201583,
-        "ProcessRouterMap": 4628208,
-        "BuildNativeWithNinja": 586292,
-        "GenerateLoaderJson": 9105583,
-        "CompileResource": 226628625,
-        "BuildJS": 1340875,
-        "CompileArkTS": 1377805834,
-        "GeneratePkgModuleJson": 909792,
-        "PackageHap": 354687500,
-        "SignHap": 606708,
-        "CollectDebugSymbol": 1417833,
-        "assembleHap": 67166
+        "ConfigureCmake": 652352,
+        "PreCheckSyscap": 406829,
+        "ProcessIntegratedHsp": 2038145,
+        "BuildNativeWithCmake": 268893,
+        "SyscapTransform": 3089388,
+        "ProcessRouterMap": 10994513,
+        "BuildNativeWithNinja": 792151,
+        "GenerateLoaderJson": 18400391,
+        "CompileResource": 169316330,
+        "BuildJS": 2526852,
+        "CompileArkTS": 1324493596,
+        "GeneratePkgModuleJson": 1240764,
+        "PackageHap": 640381060,
+        "SignHap": 1011888,
+        "assembleHap": 549619
       }
     },
-    "TOTAL_TIME": 2482642833,
-    "BUILD_ID": "202503131959253450"
+    "TOTAL_TIME": 2733025863,
+    "BUILD_ID": "202505151457148720"
   }
 }

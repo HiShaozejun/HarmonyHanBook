@@ -12,9 +12,11 @@
     "deliveryWithInstall": true,
     "installationFree": false,
     "pages": "$profile:main_pages",
-    "requestPermissions": [{
-      "name": "ohos.permission.INTERNET"
-    }],
+    "requestPermissions": [
+      {
+      "name": "ohos.permission.INTERNET",
+      },
+    ],
     "abilities": [
       {
         "name": "EntryAbility",
@@ -25,6 +27,9 @@
         "startWindowIcon": "$media:launch_logo",
         "startWindowBackground": "$color:start_window_background",
         "exported": true,
+        //启动模式
+        "launchType": "singleton",
+        // 需要在桌面显示
         "skills": [
           {
             "entities": [

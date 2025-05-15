@@ -1,5 +1,5 @@
 {
-  "modelVersion": "5.0.3",
+  "modelVersion": "5.0.0",
   "dependencies": {
     "@hadss/hmrouter-plugin": "^1.0.0-rc.11"
   },

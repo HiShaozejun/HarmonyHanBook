@@ -72,7 +72,6 @@ export struct TabIndexPage {
           }.tabBar(this.tabBarItem('Mine', $r('app.media.tab_me'), $r('app.media.tab_me_selected'), 3))
         }
         .vertical(false)
-
         .barPosition(BarPosition.End)
         .barWidth('100%')
         .animationDuration(0)

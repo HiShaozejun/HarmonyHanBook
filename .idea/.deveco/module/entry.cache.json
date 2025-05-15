@@ -1,22 +1,21 @@
 {
-	"CommonInfo":{
-		"current.select.target":"default"
-	},
 	"BuildOptions":{
 		"SELECT_BUILD_TARGET":"default",
 		"BUILD_PATH":{
-			"OUTPUT_METADATA_JSON":"/Users/shaozejun/Desktop/jason_code/HarmonyHanBook/entry/build/default/intermediates/hap_metadata/default/output_metadata.json",
-			"OUTPUT_PATH":"/Users/shaozejun/Desktop/jason_code/HarmonyHanBook/entry/build/default/outputs/default",
-			"RES_PATH":"/Users/shaozejun/Desktop/jason_code/HarmonyHanBook/entry/build/default/intermediates/res/default",
-			"ETS_SUPER_VISUAL_PATH":"/Users/shaozejun/Desktop/jason_code/HarmonyHanBook/entry/build/default/cache/default/default@CompileArkTS/esmodule",
-			"JS_ASSETS_PATH":"/Users/shaozejun/Desktop/jason_code/HarmonyHanBook/entry/build/default/intermediates/loader_out/default",
-			"SOURCE_MAP_DIR":"/Users/shaozejun/Desktop/jason_code/HarmonyHanBook/entry/build/default/intermediates/source_map/default",
-			"INTERMEDIA_PATH":"/Users/shaozejun/Desktop/jason_code/HarmonyHanBook/entry/build/default/intermediates",
-			"RES_PROFILE_PATH":"/Users/shaozejun/Desktop/jason_code/HarmonyHanBook/entry/build/default/intermediates/res/default/resources/base/profile",
-			"WORKER_LOADER":"/Users/shaozejun/Desktop/jason_code/HarmonyHanBook/entry/build/default/intermediates/loader/default/loader.json",
-			"MANIFEST_JSON":"/Users/shaozejun/Desktop/jason_code/HarmonyHanBook/entry/build/default/intermediates/manifest/default",
-			"JS_LITE_ASSETS_PATH":"/Users/shaozejun/Desktop/jason_code/HarmonyHanBook/entry/build/default/intermediates/loader_out_lite/default",
-			"JS_SUPER_VISUAL_PATH":"/Users/shaozejun/Desktop/jason_code/HarmonyHanBook/entry/build/default/cache/default/default@CompileJS/jsbundle"
+			"OUTPUT_METADATA_JSON":"/Users/liyongfen/Desktop/hanbook/HarmonyHanBook/entry/build/default/intermediates/hap_metadata/default/output_metadata.json",
+			"OUTPUT_PATH":"/Users/liyongfen/Desktop/hanbook/HarmonyHanBook/entry/build/default/outputs/default",
+			"RES_PATH":"/Users/liyongfen/Desktop/hanbook/HarmonyHanBook/entry/build/default/intermediates/res/default",
+			"ETS_SUPER_VISUAL_PATH":"/Users/liyongfen/Desktop/hanbook/HarmonyHanBook/entry/build/default/cache/default/default@CompileArkTS/esmodule",
+			"JS_ASSETS_PATH":"/Users/liyongfen/Desktop/hanbook/HarmonyHanBook/entry/build/default/intermediates/loader_out/default",
+			"INTERMEDIA_PATH":"/Users/liyongfen/Desktop/hanbook/HarmonyHanBook/entry/build/default/intermediates",
+			"RES_PROFILE_PATH":"/Users/liyongfen/Desktop/hanbook/HarmonyHanBook/entry/build/default/intermediates/res/default/resources/base/profile",
+			"WORKER_LOADER":"/Users/liyongfen/Desktop/hanbook/HarmonyHanBook/entry/build/default/intermediates/loader/default/loader.json",
+			"MANIFEST_JSON":"/Users/liyongfen/Desktop/hanbook/HarmonyHanBook/entry/build/default/intermediates/manifest/default",
+			"JS_LITE_ASSETS_PATH":"/Users/liyongfen/Desktop/hanbook/HarmonyHanBook/entry/build/default/intermediates/loader_out_lite/default",
+			"JS_SUPER_VISUAL_PATH":"/Users/liyongfen/Desktop/hanbook/HarmonyHanBook/entry/build/default/cache/default/default@CompileJS/jsbundle"
 		}
+	},
+	"CommonInfo":{
+		"current.select.target":"default"
 	}
 }

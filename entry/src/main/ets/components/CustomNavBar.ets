@@ -61,7 +61,6 @@ export struct CustomNavBar {
       top: 12,
       bottom: 12
     })
-
   }
 }
 

@@ -1,3 +1,5 @@
+
+/*应用级包名配置*/
 {
   "app": {
     "bundleName": "com.example.harmonyhanbook",
