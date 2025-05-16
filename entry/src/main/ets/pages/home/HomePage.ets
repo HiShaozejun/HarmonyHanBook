@@ -43,19 +43,13 @@ export struct HomePage {
         onLoadMore: this.onLoadMoreData,
         controller: this.controller,
         scroller:this.scroll,
-        onScrollDistance:(currentOffset:number) =>{
-          LogUtil.debugLog('onScrollDistance --- 111');
-          LogUtil.debugLog('偏移量currentOffset --' + currentOffset.toString())
-          if (currentOffset >= 0) {
-            this.listViewScrollOffset = 0;
-            return;
-          }
-          const va = Math.min(150, currentOffset);
-          LogUtil.debugLog('min -' + va);
-          LogUtil.debugLog('111233'+ Math.min(1,currentOffset).toString())
-          this.listViewScrollOffset = Math.min(150, currentOffset);
-          LogUtil.debugLog('偏移量listViewScrollOffset --' + this.listViewScrollOffset.toString())
-          LogUtil.debugLog('onScrollDistance --- 222');
+        isScrollSpring:false,
+
+        onScrollDistance:(distance:number) =>{
+          let currentOffset = distance;
+          LogUtil.debugLog('偏移量currentOffset' + currentOffset.toString())
+          this.listViewScrollOffset = Math.max(-250,currentOffset);
+          LogUtil.debugLog('偏移量listViewScrollOffset' + this.listViewScrollOffset.toString())
         },
       })
       .margin({ top: this.listViewTopPadding + this.listViewScrollOffset })
