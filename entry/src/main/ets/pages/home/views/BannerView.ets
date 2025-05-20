@@ -12,8 +12,7 @@ import { LogUtil } from "../../../commons/utils/LogUtil";
 export struct BannerView {
   @Prop
   bannerUrl: string = 'https://c2.hancourse.com/image/2023/06/04/205436_647c898c95746.jpg'
-  @Link
-  bannerViewHeight: number
+
   private iconList: Resource[] = [
     $r('app.media.home_search_yuyin'),
     $r('app.media.home_search_shouxie'),
@@ -44,11 +43,12 @@ export struct BannerView {
     Stack({ alignContent: Alignment.Bottom }) {
       Image(this.bannerUrl)
         .width('100%')
+        .height(320)
         .objectFit(ImageFit.Cover)
         .renderMode(ImageRenderMode.Original)
         .onComplete((event) => {
           // 获取实际的图片高度，需要转为vp单位
-          this.bannerViewHeight = px2vp(event?.componentHeight ?? 0);
+          // this.bannerViewHeight = px2vp(event?.componentHeight ?? 0);
         })
       Row({ space: 4 }) {
         Image($r('app.media.home_search')).width(18).height(18)

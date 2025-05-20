@@ -6,23 +6,48 @@
  * @Description : Home Tab
  */
 import { ListView, RefreshController } from "@abner/refresh";
+import { DialogHelper } from "@pura/harmony-dialog";
 import { LogUtil } from "../../commons/utils/LogUtil";
+import { ToastUtil } from "../../commons/utils/ToastUtil";
+import { FunnyObject, HomeResponseData } from "./model/HomeModel";
+import { HomeViewModel } from "./viewmodel/HomeViewModel";
 import { BannerView } from "./views/BannerView"
+import { CourseItemView } from "./views/CourseItemView";
+import { TodayItemView } from "./views/TodayItemView";
 
 @Component
 export struct HomePage {
-  mockList: string[] =
-    ['1', '2','3','4','发放的','发扥饿啊','阿仁俄文','区分饿啊发展','发哦二嘎扥噶','发放的','发扥饿啊','阿仁俄文','区分饿啊发展','发哦二嘎扥噶','发放的','发扥饿啊','阿仁俄文','区分饿啊发展','发哦二嘎扥噶'];
-  private scroll: Scroller = new Scroller();
-  @State listViewScrollOffset: number = 0;
-  @State listViewTopPadding: number = 0;
+
   private controller: RefreshController = new RefreshController();
+  private homeViewModel: HomeViewModel = new HomeViewModel();
+  @State
+  homePageData: HomeResponseData = {} as HomeResponseData;
+  @State
+  listData: ESObject [] = []
+
+  aboutToAppear(): void {
+    this.homeViewModel.getHomeData().then((data) => {
+      this.homePageData = data.res
+      this.listData.push(data.res.funny)
+      this.listData.push(...data.res.course)
+      this.listData.push(...data.res.ad)
+    }).catch((reason: string) => {
+      ToastUtil.showToast(reason)
+    })
+  }
 
   @Builder
-  itemLayout(data: Object, index: number) {
-    Row() {
-      Text(data.toString()).fontSize(18).fontColor(Color.Red)
-    }.width('100%').height(44)
+  buildFunnyData(funny:FunnyObject){
+    TodayItemView({todayValue:funny});
+  }
+
+  @Builder
+  itemLayout(data: ESObject, index: number) {
+    if (index == 0) {
+     this.buildFunnyData(data)
+    } else {
+      CourseItemView();
+    }
   }
 
   onRefresh() {
@@ -35,36 +60,39 @@ export struct HomePage {
 
   @Builder
   listView() {
-    Column(){
+    Column() {
       ListView({
-        items: this.mockList,
+        items: this.listData,
         itemLayout: (item, index) => this.itemLayout(item, index),
         onRefresh: this.onRefresh,
         onLoadMore: this.onLoadMoreData,
         controller: this.controller,
-        scroller:this.scroll,
-        isScrollSpring:false,
-
-        onScrollDistance:(distance:number) =>{
-          let currentOffset = distance;
-          LogUtil.debugLog('偏移量currentOffset' + currentOffset.toString())
-          this.listViewScrollOffset = Math.max(-250,currentOffset);
-          LogUtil.debugLog('偏移量listViewScrollOffset' + this.listViewScrollOffset.toString())
-        },
+        isScrollSpring: false,
       })
-      .margin({ top: this.listViewTopPadding + this.listViewScrollOffset })
-    } .width('100%')
+    }
+    .width('100%')
     .height('100%')
+  }
+
+  @Builder
+  buildError() {
+
   }
 
   // UI
   build() {
-    Stack({ alignContent: Alignment.TopStart }) {
-      this.listView()
-      BannerView({ bannerViewHeight: this.listViewTopPadding }).position({ top: this.listViewScrollOffset })
+    Scroll(){
+      Column(){
+        if (!this.homeViewModel.isLoading && !this.homeViewModel.hasError) {
+          BannerView({ bannerUrl: this.homePageData.daily.onpic })
+          this.listView()
+        } else if (this.homeViewModel.hasError) {
+          this.buildError()
+        }
+      }
     }
     .width('100%')
     .height('100%')
-
+    .backgroundColor($r('app.color.bg_color'))
   }
 }

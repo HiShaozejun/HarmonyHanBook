@@ -4,6 +4,8 @@ import { App, window } from '@kit.ArkUI';
 import { HMRouterMgr } from '@hadss/hmrouter';
 import { fullScreen } from '../commons/utils/FullScreen';
 import { LogUtil } from '../commons/utils/LogUtil';
+import { DialogHelper } from '@pura/harmony-dialog';
+import { LibSetUp } from '../commons/utils/LibSetUp';
 
 const DOMAIN = 0x0000;
 
@@ -13,10 +15,9 @@ export default class EntryAbility extends UIAbility {
   onCreate(want: Want, launchParam: AbilityConstant.LaunchParam): void {
     this.context.getApplicationContext().setColorMode(ConfigurationConstant.ColorMode.COLOR_MODE_NOT_SET);
     AppStorage.setOrCreate<Context>('context',this.context)
-    HMRouterMgr.init({
-      context: this.context
-    })
+    LibSetUp.setUpLib(this.context)
   }
+
   //UIAbility进入前台
   onForeground(): void {}
 
@@ -26,7 +27,6 @@ export default class EntryAbility extends UIAbility {
   // windowStage创建完成回调
   onWindowStageCreate(windowStage: window.WindowStage): void{
 
-    // windowStage生命周期
     windowStage.on('windowStageEvent',(event)=>{
       let stageEventType: window.WindowStageEventType = event;
       switch (stageEventType) {

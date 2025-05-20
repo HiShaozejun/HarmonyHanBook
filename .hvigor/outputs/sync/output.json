@@ -4,7 +4,9 @@
     "MODULE_BUILD_DIR": "/Users/liyongfen/Desktop/hanbook/HarmonyHanBook/entry/build",
     "DEPENDENCY_INFO": {
       "@hadss/hmrouter": "/Users/liyongfen/Desktop/hanbook/HarmonyHanBook/oh_modules/.ohpm/@hadss+hmrouter@1.0.0-rc.11/oh_modules/@hadss/hmrouter",
-      "@abner/refresh": "/Users/liyongfen/Desktop/hanbook/HarmonyHanBook/oh_modules/.ohpm/@abner+refresh@1.4.3/oh_modules/@abner/refresh"
+      "@abner/refresh": "/Users/liyongfen/Desktop/hanbook/HarmonyHanBook/oh_modules/.ohpm/@abner+refresh@1.4.3/oh_modules/@abner/refresh",
+      "@pura/harmony-dialog": "/Users/liyongfen/Desktop/hanbook/HarmonyHanBook/oh_modules/.ohpm/@pura+harmony-dialog@1.1.5/oh_modules/@pura/harmony-dialog",
+      "@pura/spinkit": "/Users/liyongfen/Desktop/hanbook/HarmonyHanBook/oh_modules/.ohpm/@pura+spinkit@1.0.5/oh_modules/@pura/spinkit"
     },
     "TARGETS": {
       "default": {

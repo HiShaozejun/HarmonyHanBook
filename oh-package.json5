@@ -3,7 +3,8 @@
   "description": "Please describe the basic information.",
   "dependencies": {
     "@hadss/hmrouter": "1.0.0-rc.11",
-    "@abner/refresh": "^1.4.3"
+    "@abner/refresh": "^1.4.3",
+    "@pura/harmony-dialog": "^1.1.5"
   },
   "devDependencies": {
     "@ohos/hypium": "1.0.21",
