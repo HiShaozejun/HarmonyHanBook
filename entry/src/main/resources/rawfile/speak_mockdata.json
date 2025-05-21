@@ -1,0 +1,201 @@
+{
+  "errmsg": "",
+  "version": 1,
+  "state": 1,
+  "res": {
+    "video": {
+      "title": "Choose movie clips as you like",
+      "intro": "Speaking Chinese with fun dubbing",
+      "list": [{
+        "id": 49,
+        "zh_title": "\u529f\u592b-\u4f60\u89c1\u8fc7\u6bd4\u5b50\u5f39\u8fd8\u5feb\u7684\u529f\u592b\u5417",
+        "en_title": "Have you ever seen such a fast kung fu?",
+        "onpic": ["https:\/\/c1.hancourse.com\/avatar\/2022\/0125\/031935_61efa487a296c.jpg", "https:\/\/c1.hancourse.com\/avatar\/2021\/0823\/110753_61231109135ce.jpg", "https:\/\/c1.hancourse.com\/avatar\/2022\/0205\/114826_61fe9c4a7029f.jpg", "https:\/\/c1.hancourse.com\/avatar\/2023\/0703\/023309_64a1c2e530639.jpg", "https:\/\/c1.hancourse.com\/avatar\/2023\/0712\/035659_64ae5ccb02318.jpg", "https:\/\/c1.hancourse.com\/avatar\/2023\/0916\/025713_6504a9097a2f2.jpg"],
+        "video_url": "https:\/\/cdn2.hancourse.net\/dub\/video\/2022\/0819\/cfcd208\/191750_80d7930123.mp4",
+        "type": 2,
+        "pic": "https:\/\/c2.hancourse.com\/dub\/img\/62ff7123841e5.jpg",
+        "type_name": "Movies"
+      }, {
+        "id": 103,
+        "zh_title": "\u9547\u9b42-\u4f60\u60f3\u5f53\u77e5\u8bc6\u6e0a\u535a\u7684\u201c\u5927\u5b66\u8001\u5e08\u201d\u5417",
+        "en_title": "Do you want to be a college teacher?",
+        "onpic": ["https:\/\/c1.hancourse.com\/avatar\/2022\/0915\/042533_6322e17db3b90.jpg", "https:\/\/c1.hancourse.com\/avatar\/2023\/0312\/075015_640dbc770beeb.jpg", "https:\/\/c1.hancourse.com\/avatar\/2022\/0213\/84f05bd\/184755_1118809842.png"],
+        "video_url": "https:\/\/cdn2.hancourse.net\/dub\/video\/2022\/0902\/cfcd208\/210913_6bf0b64e54.mp4",
+        "type": 1,
+        "pic": "https:\/\/c2.hancourse.com\/dub\/img\/630085181b7af.jpg",
+        "type_name": "TV Shows"
+      }, {
+        "id": 230,
+        "zh_title": "\u540d\u4eba\u91c7\u8bbf-\u6211\u7684\u9000\u7a3f\u53bb\u8fc7\u7684\u5730\u65b9\u6bd4\u6211\u8fd8\u591a",
+        "en_title": "The novels rejected",
+        "onpic": ["https:\/\/c1.hancourse.com\/avatar\/2022\/1216\/101313_639bd4391e8fc.jpg", "https:\/\/c1.hancourse.com\/avatar\/2021\/1220\/045516_61c044f442f96.jpg"],
+        "video_url": "https:\/\/cdn2.hancourse.net\/dub\/video\/2022\/0821\/cfcd208\/194240_e055c56454.mp4",
+        "type": 4,
+        "pic": "https:\/\/c2.hancourse.com\/dub\/img\/63021a2698b74.jpg",
+        "type_name": "Interviews"
+      }, {
+        "id": 461,
+        "zh_title": "\u963f\u5510\u5947\u9047-\u4e0e\u673a\u5668\u4eba\u4e00\u8d77\u5192\u9669",
+        "en_title": "Adventure with robots.",
+        "onpic": ["https:\/\/c1.hancourse.com\/avatar\/2022\/1216\/101313_639bd4391e8fc.jpg", "https:\/\/c1.hancourse.com\/avatar\/2021\/1220\/045516_61c044f442f96.jpg"],
+        "video_url": "https:\/\/cdn2.hancourse.net\/dub\/video\/2022\/0909\/cfcd208\/134716_1a83784067.mp4",
+        "type": 3,
+        "pic": "https:\/\/c2.hancourse.com\/dub\/img\/631ad351af3e1.jpg",
+        "type_name": "Cartoons"
+      }]
+    },
+    "subject": [{
+      "name": "First Meeting",
+      "intro": "\u521d\u6b21\u89c1\u9762",
+      "en_intro": "When you first meet someone, what kind of expressions are appropriate, let's learn it together.",
+      "onpic": "https:\/\/c2.hancourse.com\/haina\/images\/6181251a1face.jpg",
+      "id": 103244,
+      "learn": 1,
+      "tags": []
+    }, {
+      "aid": 100012,
+      "id": 103188,
+      "name": "I'm So Busy Recently",
+      "onpic": "https:\/\/c2.hancourse.com\/haina\/images\/6183a4fce7a37.jpg",
+      "intro": "\u6700\u8fd1\u5fd9\u6b7b\u4e86",
+      "en_intro": "What are you responsible for? Do you often feel busy? In this part, you will learn how to express you're busy.",
+      "words": 2,
+      "aname": "School Life",
+      "tags": [{
+        "id": 100012,
+        "name": "School Life"
+      }],
+      "learn": 0
+    }, {
+      "aid": 100014,
+      "id": 102144,
+      "name": "Happy New Year",
+      "onpic": "https:\/\/c2.hancourse.com\/haina\/images\/6181291ca852f.jpg",
+      "intro": "\u65b0\u5e74\u597d",
+      "en_intro": "In this part, you will learn some expressions of celebrating a new year.",
+      "words": 2,
+      "aname": "society",
+      "tags": [{
+        "id": 100014,
+        "name": "society"
+      }],
+      "learn": 0
+    }, {
+      "aid": 100015,
+      "id": 103096,
+      "name": "It's Too Cold in Winter",
+      "onpic": "https:\/\/c2.hancourse.com\/haina\/images\/6183924c36d13.jpg",
+      "intro": "\u51ac\u5929\u592a\u51b7\u4e86",
+      "en_intro": "Do you like winter? Now let's learn how to describe winter.",
+      "words": 3,
+      "aname": "Nature",
+      "tags": [{
+        "id": 100015,
+        "name": "Nature"
+      }],
+      "learn": 0
+    }, {
+      "aid": 100016,
+      "id": 101951,
+      "name": "Let's Play Tug of War",
+      "onpic": "https:\/\/c2.hancourse.com\/haina\/images\/618129ba1f308.jpg",
+      "intro": "\u6211\u4eec\u6765\u73a9\u62d4\u6cb3\u5427",
+      "en_intro": " How to do something fun to kill time? In this part, you will learn how to make suggestions to others and some ways for killing time.",
+      "words": 3,
+      "aname": "Entertainment",
+      "tags": [{
+        "id": 100016,
+        "name": "Entertainment"
+      }],
+      "learn": 0
+    }, {
+      "aid": 100017,
+      "id": 103171,
+      "name": "Where Shall We Go for Dinner",
+      "onpic": "https:\/\/c2.hancourse.com\/haina\/images\/61838df2b6a3f.jpg",
+      "intro": "\u665a\u4e0a\u53bb\u54ea\u513f\u5403\u996d",
+      "en_intro": "Do you like going to restaurants? Do you prefer Chinese food or Western food? In this part, you will learn some expressions of having dinner.",
+      "words": 5,
+      "aname": "Cuisine",
+      "tags": [{
+        "id": 100017,
+        "name": "Cuisine"
+      }],
+      "learn": 0
+    }, {
+      "aid": 100018,
+      "id": 100213,
+      "name": "Introduce the House",
+      "onpic": "https:\/\/c2.hancourse.com\/haina\/images\/618350aad53d0.jpg",
+      "intro": "\u4ecb\u7ecd\u623f\u5b50",
+      "en_intro": "What is your house like? Is it special? In this part, you will learn how to introduce your house.",
+      "words": 2,
+      "aname": "Life",
+      "tags": [{
+        "id": 100018,
+        "name": "Life"
+      }],
+      "learn": 0
+    }, {
+      "aid": 100019,
+      "id": 103236,
+      "name": "When Do You See the Customer",
+      "onpic": "https:\/\/c2.hancourse.com\/haina\/images\/61838cb46e663.jpg",
+      "intro": "\u4ec0\u4e48\u65f6\u5019\u89c1\u5ba2\u6237",
+      "en_intro": "Do you know what preparation should do when we see customers? In this part, you will learn some expressions of seeing customers.",
+      "words": 4,
+      "aname": "Business",
+      "tags": [{
+        "id": 100019,
+        "name": "Business"
+      }],
+      "learn": 0
+    }, {
+      "aid": 100020,
+      "id": 103274,
+      "name": "When Does the Bus Come",
+      "onpic": "https:\/\/c2.hancourse.com\/haina\/images\/6184eb8907c26.jpg",
+      "intro": "\u516c\u5171\u6c7d\u8f66\u4ec0\u4e48\u65f6\u5019\u6765",
+      "en_intro": "Have you ever taken a bus in your life and do you like taking a bus when you go out? And In this part, you will learn some expressions of bus.",
+      "words": 5,
+      "aname": "Travel",
+      "tags": [{
+        "id": 100020,
+        "name": "Travel"
+      }],
+      "learn": 0
+    }, {
+      "aid": 100021,
+      "id": 103291,
+      "name": "Go to Bed and Get up Early",
+      "onpic": "https:\/\/c2.hancourse.com\/haina\/images\/61838b51eff63.jpg",
+      "intro": "\u65e9\u7761\u65e9\u8d77",
+      "en_intro": "There is a saying that early to bed and early to rise makes a man healthy. In this part, you will learn how to express that regular work and rest makes a man healthy.",
+      "words": 4,
+      "aname": "Health",
+      "tags": [{
+        "id": 100021,
+        "name": "Health"
+      }],
+      "learn": 0
+    }, {
+      "aid": 100022,
+      "id": 103305,
+      "name": "Treasure Island",
+      "onpic": "https:\/\/c2.hancourse.com\/haina\/images\/618124ebbe64e.jpg",
+      "intro": "\u201c\u5b9d\u5c9b\u201d\u53f0\u6e7e",
+      "en_intro": "Taiwan is a province of China. Do you know something about it? In this part, you will learn some descriptions of Taiwan, China.",
+      "words": 3,
+      "aname": "City",
+      "tags": [{
+        "id": 100022,
+        "name": "City"
+      }],
+      "learn": 0
+    }],
+    "ad": {
+      "onpic": "https:\/\/c2.hancourse.com\/image\/2022\/12\/30\/145556_63ae8b7c94aac.png",
+      "link": "hanbook:\/\/dict\/apph5?url=https%3A%2F%2Fh5.hanbook.com%2Ftopic%2Ftour%2F%3FnavBgColor%3DDB3C25"
+    }
+  }
+}

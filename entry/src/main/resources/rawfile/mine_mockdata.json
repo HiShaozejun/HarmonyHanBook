@@ -1,0 +1,75 @@
+{
+  "errmsg": "",
+  "version": 1,
+  "state": 1,
+  "res": {
+    "order": [],
+    "topic": [],
+    "profile_done": 0,
+    "goods": [{
+      "title": "HanCourse Premium",
+      "price": "$7.25\/m for subscriptions",
+      "time": "",
+      "type": 1,
+      "list": [{
+        "title": "Comprehensive Course",
+        "intro": "Interactive Video Lessons",
+        "link": ""
+      }, {
+        "title": "Service Package",
+        "intro": "Q & A; Live Class",
+        "link": ""
+      }, {
+        "title": "[ Free Gift ] Dictionary Plus",
+        "intro": "Words & Expressions",
+        "link": ""
+      }]
+    }, {
+      "title": "Dictionary Plus",
+      "price": "$1.5\/m for subscriptions",
+      "time": "",
+      "type": 2,
+      "list": [{
+        "title": "Assessment & Video Guide",
+        "intro": "Speaking, Writing, Evaluation",
+        "link": ""
+      }, {
+        "title": "Wordbooks",
+        "intro": "Learn, Review, Quiz by Flashcards",
+        "link": ""
+      }, {
+        "title": "Speaking Cards",
+        "intro": "Daily Expressions & Dialogue",
+        "link": ""
+      }]
+    }],
+    "conf": {
+      "bar": [{
+        "icon": "https:\/\/c2.hancourse.com\/image\/2022\/10\/18\/194826_634e928a42209.png",
+        "title": "Input Invitation Code",
+        "link": "hanbook:\/\/dict\/apph5?url=https%3A%2F%2Fh5.hanbook.com%2Fapp%2Fadd-invite%2F%3FnavBgColor%3DDB3C25"
+      }, {
+        "icon": "https:\/\/c2.hancourse.com\/image\/2022\/05\/12\/145046_627cae4670a78.png",
+        "title": "Pinyin Instructions",
+        "link": "hanbook:\/\/dict\/apph5?url=http%3A%2F%2Fh5.hanbook.com%2Fapp%2Fpinyin%3FnavBgColor%3DDB3C25"
+      }, {
+        "icon": "https:\/\/c2.hancourse.com\/image\/2022\/05\/12\/145111_627cae5fcde93.png",
+        "title": "Character Strokes and Radicals",
+        "link": "hanbook:\/\/dict\/apph5?url=http%3A%2F%2Fh5.hanbook.com%2Fapp%2Fstrokes%3FnavBgColor%3DDB3C25"
+      }],
+      "info": [{
+        "icon": "https:\/\/c2.hancourse.com\/image\/2022\/02\/15\/144756_620b4c9c6fce3.png",
+        "title": "Follow us on Facebook",
+        "link": "hanbook:\/\/dict\/h5?url=https:\/\/www.facebook.com\/profile.php?id=100071019322626"
+      }, {
+        "icon": "https:\/\/c2.hancourse.com\/image\/2022\/02\/15\/144813_620b4cad4b622.png",
+        "title": "Join Whatsapp group",
+        "link": "hanbook:\/\/dict\/h5?url=https:\/\/chat.whatsapp.com\/CPAbG712rfb6mJSO9TOFtx"
+      }, {
+        "icon": "https:\/\/c2.hancourse.com\/image\/2022\/02\/15\/144708_620b4c6c6596f.png",
+        "title": "Review on App Store",
+        "link": "hanbook:\/\/dict\/h5?url=https:\/\/apps.apple.com\/us\/app\/hanbook\/id1569331953"
+      }]
+    }
+  }
+}

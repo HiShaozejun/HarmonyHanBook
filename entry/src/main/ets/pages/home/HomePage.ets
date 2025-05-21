@@ -6,8 +6,6 @@
  * @Description : Home Tab
  */
 import { ListView, RefreshController } from "@abner/refresh";
-import { DialogHelper } from "@pura/harmony-dialog";
-import { LogUtil } from "../../commons/utils/LogUtil";
 import { ToastUtil } from "../../commons/utils/ToastUtil";
 import { CourseObject, FunnyObject, HomeResponseData } from "./model/HomeModel";
 import { HomeViewModel } from "./viewmodel/HomeViewModel";
@@ -17,7 +15,6 @@ import { TodayItemView } from "./views/TodayItemView";
 
 @Component
 export struct HomePage {
-
   private controller: RefreshController = new RefreshController();
   private homeViewModel: HomeViewModel = new HomeViewModel();
   @State
@@ -30,15 +27,13 @@ export struct HomePage {
       this.homePageData = data.res
       this.listData.push(data.res.funny)
       this.listData.push(...data.res.course)
-      // this.listData.push(...data.res.ad)
     }).catch((reason: string) => {
       ToastUtil.showToast(reason)
     })
   }
 
   @Builder
-  itemLayout(data: object, index: number) {
-  if (typeof data == 'string'){}
+  itemLayout(data: ESObject, index: number) {
     if (index == 0) {
       TodayItemView({todayValue:data as FunnyObject});
     } else {

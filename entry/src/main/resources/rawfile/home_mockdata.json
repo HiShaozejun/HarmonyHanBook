@@ -1,0 +1,113 @@
+{
+  "errmsg": "",
+  "version": 1,
+  "state": 1,
+  "res": {
+    "daily": {
+      "onpic": "https:\/\/c2.hancourse.com\/image\/2023\/06\/04\/205522_647c89ba87336.jpg"
+    },
+    "funny": {
+      "title": "Learning snacks of today",
+      "intro": "Learn oral Chinese from hot vlogs",
+      "link": "hanbook:\/\/dict\/course?id=1012",
+      "list": [
+        {
+          "link": "hanbook:\/\/dict\/classindex?courseid=1012&classid=345",
+          "onpic": "https:\/\/c2.hancourse.com\/image\/2024\/09\/02\/144145_66d55e2979fca.jpg"
+        },
+        {
+          "link": "hanbook:\/\/dict\/classindex?courseid=1012&classid=344",
+          "onpic": "https:\/\/c2.hancourse.com\/image\/2024\/09\/02\/144027_66d55ddb442b4.jpg"
+        }
+      ]
+    },
+    "course": [
+      {
+        "name": "Comprehensive course",
+        "t_onpic": "https:\/\/c2.hancourse.com\/image\/2023\/01\/12\/180207_63bfda9fc1cb0.png",
+        "course_id": 1003,
+        "title": "Learn with Emily",
+        "intro": "\u00b7 Tourism-style videos\n\u00b7 Words & grammar\n\u00b7 Game-based quizzes",
+        "onpic": "https:\/\/c2.hancourse.com\/image\/2023\/01\/12\/204946_63c001ea160cb.png",
+        "hits": "416.8K",
+        "uids": "1340858,1341779,1316383,1342566",
+        "link": "hanbook:\/\/dict\/course?id=1003",
+        "level": "2",
+        "user_onpic": [
+          "https:\/\/c2.hancourse.com\/image\/game\/avatar\/22.png",
+          "https:\/\/c2.hancourse.com\/image\/game\/avatar\/24.png",
+          "https:\/\/c2.hancourse.com\/image\/game\/avatar\/27.png"
+        ]
+      },
+      {
+        "name": "Must-learn basis of Pinyin",
+        "t_onpic": "https:\/\/c2.hancourse.com\/image\/2023\/01\/12\/180537_63bfdb71d479c.png",
+        "course_id": 1005,
+        "title": "Pronunciation guide",
+        "intro": "\u00b7 Interactive video lesson \n\u00b7 Speaking assessment \n\u00b7 Comprehensive quiz",
+        "onpic": "https:\/\/c2.hancourse.com\/image\/2023\/01\/12\/205015_63c00207e410b.png",
+        "hits": "3.0M",
+        "uids": "1347279,1341779,1333945",
+        "link": "hanbook:\/\/dict\/course?id=1005",
+        "level": "1,2,3,4",
+        "user_onpic": [
+          "https:\/\/c2.hancourse.com\/image\/game\/avatar\/52.png",
+          "https:\/\/c2.hancourse.com\/image\/game\/avatar\/55.png",
+          "https:\/\/c2.hancourse.com\/image\/game\/avatar\/58.png"
+        ]
+      },
+      {
+        "name": "Basic Hanzi course",
+        "t_onpic": "https:\/\/c2.hancourse.com\/image\/2023\/01\/12\/181352_63bfdd60eec59.png",
+        "course_id": 1006,
+        "title": "Learn how to write",
+        "intro": "\u00b7 Structure of Character \n\u00b7 Radical & stroke order\n\u00b7 Writing practice",
+        "onpic": "https:\/\/c2.hancourse.com\/image\/2023\/01\/12\/205024_63c00210f1c6a.png",
+        "hits": "2.4M",
+        "uids": "1347256",
+        "link": "hanbook:\/\/dict\/course?id=1006",
+        "level": "1,2,3",
+        "user_onpic": [
+          "https:\/\/c2.hancourse.com\/image\/game\/avatar\/64.png",
+          "https:\/\/c2.hancourse.com\/image\/game\/avatar\/65.png",
+          "https:\/\/c2.hancourse.com\/image\/game\/avatar\/66.png"
+        ]
+      },
+      {
+        "name": "Spoken Chinese course",
+        "t_onpic": "https:\/\/c2.hancourse.com\/image\/2023\/01\/12\/181537_63bfddc9de0e0.png",
+        "course_id": 0,
+        "title": "1 on 1 coaching",
+        "intro": "\u00b7 Customized learning\n\u00b7 Speaking correction\n\u00b7 Experienced teacher",
+        "onpic": "https:\/\/c2.hancourse.com\/image\/2023\/01\/12\/221149_63c0152585ec0.png",
+        "hits": "247.0K",
+        "uids": "",
+        "link": "hanbook:\/\/dict\/apph5?url=https%3A%2F%2Fh5.hanbook.com%2Ftopic%2Ftour%2F%3FnavBgColor%3DDB3C25",
+        "level": "1,2",
+        "user_onpic": [
+          "https:\/\/c2.hancourse.com\/image\/game\/avatar\/72.png",
+          "https:\/\/c2.hancourse.com\/image\/game\/avatar\/74.png",
+          "https:\/\/c2.hancourse.com\/image\/game\/avatar\/78.png"
+        ]
+      }
+    ],
+    "ad": [
+      {
+        "onpic": "https:\/\/c2.hancourse.com\/image\/2023\/01\/03\/153648_63b3db1045dda.png",
+        "link": "hanbook:\/\/dict\/wordbook"
+      },
+      {
+        "onpic": "https:\/\/c2.hancourse.com\/image\/2023\/01\/03\/153717_63b3db2df2472.png",
+        "link": "hanbook:\/\/dict\/speakcard"
+      },
+      {
+        "onpic": "https:\/\/c2.hancourse.com\/image\/2023\/01\/03\/153614_63b3daee4cc64.png",
+        "link": "hanbook:\/\/dict\/apph5?url=https%3A%2F%2Fh5.hanbook.com%2Ftopic%2Fgames%2F%3FnavBgColor%3DDB3C25"
+      },
+      {
+        "onpic": "https:\/\/c2.hancourse.com\/image\/2023\/01\/03\/153516_63b3dab49e135.png",
+        "link": "hanbook:\/\/dict\/apph5?url=https%3A%2F%2Fh5.hanbook.com%2Fapp%2Finvite-record%3FnavBgColor%3DDB3C25"
+      }
+    ]
+  }
+}

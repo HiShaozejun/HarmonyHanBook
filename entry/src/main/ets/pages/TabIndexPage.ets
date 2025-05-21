@@ -11,6 +11,7 @@ import {
   IHMLifecycle,
 } from '@hadss/hmrouter';
 import { AttributeUpdater } from '@kit.ArkUI';
+import { ToastUtil } from '../commons/utils/ToastUtil';
 import { CoursePage } from './course/CoursePage';
 import { HomePage } from './home/HomePage';
 import { MinePage } from './mine/MinePage';
@@ -34,6 +35,12 @@ export struct TabIndexPage {
   @StorageProp('bottomHeight')
   bottomHeight: number = 0
 
+  aboutToAppear(): void {
+    getContext(this).eventHub.on('changeIndex',(index:number)=>{
+      this.curIndex = index
+    })
+  }
+
   @Builder
   tabBarItem(title: string, normalIcon: ResourceStr, selectedIcon: ResourceStr, index: number) {
     Column({ space: 4 }) {
@@ -54,7 +61,7 @@ export struct TabIndexPage {
           modifier: this.modifier
         },
       }) {
-        Tabs() {
+        Tabs({index:this.curIndex}) {
           TabContent() {
             HomePage()
           }.tabBar(this.tabBarItem('Home', $r('app.media.tab_home'), $r('app.media.tab_home_selected'), 0))

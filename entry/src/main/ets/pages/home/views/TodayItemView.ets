@@ -18,6 +18,10 @@ export struct TodayItemView {
     }
     .justifyContent(FlexAlign.SpaceBetween)
     .width('100%')
+    .onClick(()=>{
+      let ctx = AppStorage.get<Context>('context');
+      ctx?.eventHub.emit('changeIndex',1);
+    })
   }
 
   @Builder

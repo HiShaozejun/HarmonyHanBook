@@ -32,7 +32,7 @@ export struct CourseItemView {
 
   @Builder
   learningCourse() {
-    Row() {
+    Row({space:20}) {
       Image(this.courseData.onpic)
         .layoutWeight(1)
         .aspectRatio(1 / 1.3)
@@ -41,9 +41,14 @@ export struct CourseItemView {
       Column() {
         Text(this.courseData.title).fontColor($r('app.color.theme_color')).fontSize(18)
         Text(this.courseData.intro).fontColor(Color.Black).fontSize(13)
+        Blank().height(10)
+        Button(){
+          Text('Study').fontColor(Color.White).fontSize(14).fontWeight(FontWeight.Bold)
+        }.backgroundColor($r('app.color.theme_color')).width(80).height(30).borderRadius(15)
       }
       .width('100%')
       .justifyContent(FlexAlign.Start)
+      .alignItems(HorizontalAlign.Start)
       .layoutWeight(2)
     }
     .width("100%")
