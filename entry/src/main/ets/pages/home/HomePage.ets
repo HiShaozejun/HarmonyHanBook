@@ -9,7 +9,7 @@ import { ListView, RefreshController } from "@abner/refresh";
 import { DialogHelper } from "@pura/harmony-dialog";
 import { LogUtil } from "../../commons/utils/LogUtil";
 import { ToastUtil } from "../../commons/utils/ToastUtil";
-import { FunnyObject, HomeResponseData } from "./model/HomeModel";
+import { CourseObject, FunnyObject, HomeResponseData } from "./model/HomeModel";
 import { HomeViewModel } from "./viewmodel/HomeViewModel";
 import { BannerView } from "./views/BannerView"
 import { CourseItemView } from "./views/CourseItemView";
@@ -30,23 +30,19 @@ export struct HomePage {
       this.homePageData = data.res
       this.listData.push(data.res.funny)
       this.listData.push(...data.res.course)
-      this.listData.push(...data.res.ad)
+      // this.listData.push(...data.res.ad)
     }).catch((reason: string) => {
       ToastUtil.showToast(reason)
     })
   }
 
   @Builder
-  buildFunnyData(funny:FunnyObject){
-    TodayItemView({todayValue:funny});
-  }
-
-  @Builder
-  itemLayout(data: ESObject, index: number) {
+  itemLayout(data: object, index: number) {
+  if (typeof data == 'string'){}
     if (index == 0) {
-     this.buildFunnyData(data)
+      TodayItemView({todayValue:data as FunnyObject});
     } else {
-      CourseItemView();
+      CourseItemView({courseData:data as CourseObject});
     }
   }
 
